@@ -36,8 +36,10 @@
 
 # ¿Qué es M.A.S.C?: 
 
+En M.A.S.C. tenemos la misión de promover la difusión y comercialización de productos y servicios de los artistas y emprendedores culturales en general otorgándoles diferentes herramientas para la comercialización o difusión de sus obras o servicios.
+
 :point_right: Documentación
 
 :small_orange_diamond: **Documento IEEE 830**
-En éste [link] pueden consultar el Documento de Especificación de requisitos de software de nuestra app.
+En éste [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3COe_k/edit) pueden consultar el Documento de Especificación de requisitos de software de nuestra app.
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
