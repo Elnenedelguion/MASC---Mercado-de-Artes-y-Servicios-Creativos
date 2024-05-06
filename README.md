@@ -1,27 +1,43 @@
-# MASC
+![masc](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/141bda60-e369-489c-a2b1-d836ec5a95fd)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
-## Development server
+### Instituto Superior Politécnico Córdoba
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales 
 
-## Code scaffolding
+### Proyecto "M.A.S.C"
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Ciclo lectivo: 2024
 
-## Build
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+:point_right: Grupo M.A.S.C
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+:small_orange_diamond: IUORIO, EDUARDO
 
-## Running unit tests
+:small_orange_diamond: RODRIGUEZ, MARIA ALEJANDRA
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+:small_orange_diamond: GARAY, DIEGO
 
-## Running end-to-end tests
+:small_orange_diamond: SUAREZ, FLAVIA
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+:small_orange_diamond: RUIZ, NATALIA
 
-## Further help
+:small_orange_diamond: OLIVERIO, ARCE
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+:small_orange_diamond: MEDINA, PABLO
+
+:small_orange_diamond: MEIER, IVAN
+
+:small_orange_diamond: CHAUMONT, GISELLE
+
+:small_orange_diamond: RINAUDO, LUCIANO
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+# ¿Qué es M.A.S.C?: 
+
+:point_right: Documentación
+
+:small_orange_diamond: **Documento IEEE 830**
+En éste [link] pueden consultar el Documento de Especificación de requisitos de software de nuestra app.
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
