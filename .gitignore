@@ -1,5 +1,6 @@
 masc/
-masc
+!db.sqlite3
+!manage.py
 env/
 
 
