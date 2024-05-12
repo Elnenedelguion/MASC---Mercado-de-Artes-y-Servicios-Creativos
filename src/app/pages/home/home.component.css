@@ -1,0 +1,102 @@
+#gradiente {
+    background-image: linear-gradient(
+      180deg,
+      hsl(152deg 69% 31%) 0%,
+      hsl(148deg 42% 41%) 13%,
+      hsl(146deg 30% 48%) 18%,
+      hsl(145deg 27% 56%) 22%,
+      hsl(144deg 27% 63%) 26%,
+      hsl(143deg 27% 70%) 31%,
+      hsl(143deg 26% 77%) 37%,
+      hsl(144deg 25% 83%) 46%,
+      hsl(148deg 23% 90%) 59%,
+      hsl(210deg 17% 98%) 100%
+    );
+  }
+  
+  .bg {
+    background-color: #f8f9fa;
+  }
+  
+  .naranja {
+    background-color: #ff9933;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  .avatar {
+    height: 40px;
+    width: 40px;
+  }
+  
+  @-webkit-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -webkit-transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+    }
+  }
+  
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+  }
+  
+  .animate {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #699666 0%,
+      #00a999 29%,
+      #ff9933 67%,
+      #d5994c 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
