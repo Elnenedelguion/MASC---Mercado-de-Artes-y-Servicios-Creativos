@@ -1,0 +1,217 @@
+<!-- Section: Design Block -->
+<section class="d-flex flex-column">
+  <!-- Jumbotron -->
+  <div
+    class="px-4 py-5 px-md-5 text-center text-lg-start"
+    style="background-color: hsl(0, 0%, 96%)"
+  >
+    <div class="container">
+      <div class="row gx-lg-5 align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="card">
+            <div class="card-body py-5 px-md-5">
+              <form [formGroup]="signupForm">
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input
+                        formControlName="name"
+                        type="text"
+                        id="form3Example1"
+                        class="form-control"
+                      />
+                      <!--
+                      <div
+                        *ngIf="name.invalid && (name.dirty || name.touched)"
+                        class="alert text-danger"
+                      >
+                        <div *ngIf="name.errors?.['required']">
+                          El nombre es requerido.
+                        </div>
+                        <div *ngIf="name.errors?.['text']">
+                          El nombre debe tener un formato válido.
+                        </div>
+                        <div *ngIf="name.errors?.['minlength']">
+                          El nombre debe tener mínimo 3 caracteres.
+                        </div>
+                      </div> -->
+                      <label class="form-label" for="form3Example1"
+                        >Nombre</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input
+                        formControlName="surname"
+                        type="text"
+                        id="form3Example2"
+                        class="form-control"
+                      />
+                      <!-- 
+                      <div
+                        *ngIf="
+                          surname.invalid && (surname.dirty || surname.touched)
+                        "
+                        class="alert text-danger"
+                      >
+                        <div *ngIf="surname.errors?.['required']">
+                          El apellido es requerido.
+                        </div>
+                        <div *ngIf="surname.errors?.['text']">
+                          El apellido debe tener un formato válido.
+                        </div>
+                        <div *ngIf="surname.errors?.['minlength']">
+                          El apellido debe tener mínimo 3 caracteres.
+                        </div>
+                      </div> -->
+                      <label class="form-label" for="form3Example2"
+                        >Apellido</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input
+                    formControlName="email"
+                    type="email"
+                    id="form3Example3"
+                    class="form-control"
+                  />
+                  <!-- 
+                  <div
+                    *ngIf="email.invalid && (email.dirty || email.touched)"
+                    class="alert text-danger"
+                  >
+                    <div *ngIf="email.errors?.['required']">
+                      El correo es requerido.
+                    </div>
+                    <div *ngIf="email.errors?.['email']">
+                      El correo debe tener un formato válido.
+                    </div>
+                  </div> -->
+                  <label class="form-label" for="form3Example3"
+                    >Correo Electrónico</label
+                  >
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input
+                    formControlName="password"
+                    type="password"
+                    id="form3Example4"
+                    class="form-control"
+                  />
+                  <!--  
+                  <div
+                    *ngIf="
+                      password.invalid && (password.dirty || password.touched)
+                    "
+                    class="alert text-danger"
+                  >
+                    <div *ngIf="password.errors?.['required']">
+                      La contraseña es requerida.
+                    </div>
+                    <div *ngIf="password.errors?.['minlength']">
+                      La contraseña debe tener mínimo 5 caracteres.
+                    </div>
+                  </div>-->
+                  <label class="form-label" for="form3Example4"
+                    >Contraseña</label
+                  >
+                </div>
+                <div class="form-outline mb-4">
+                  <input
+                    formControlName="repeatPassword"
+                    type="password"
+                    id="form3Example4"
+                    class="form-control"
+                  />
+                  <!--  
+                  <div
+                    *ngIf="
+                      repeatPassword.invalid &&
+                      (repeatPassword.dirty || repeatPassword.touched)
+                    "
+                    class="alert text-danger"
+                  >
+                    <div *ngIf="repeatPassword.errors?.['required']">
+                      Repetir contraseña.
+                    </div>
+                    <div *ngIf="repeatPassword.errors?.['minlength']">
+                      La contraseña debe tener mínimo 5 caracteres.
+                    </div>
+                  </div>-->
+                  <label class="form-label" for="form3Example4"
+                    >Confirmar Contraseña</label
+                  >
+                </div>
+
+                <!-- Submit button -->
+                <button
+                  type="submit"
+                  (click)="signup()"
+                  class="btn btn-success btn-block mb-4"
+                >
+                  Registrarse
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h1 class="my-5 display-3 fw-bold ls-tight">
+            Regístrate para explorar<br />
+            <span class="text-success"> todas nuestras secciones</span>
+          </h1>
+          <p style="color: hsl(217, 10%, 50.8%)">
+            En M.A.S.C. tenemos la misión de promover la industria cultural del
+            país, otorgándoles a los artistas y emprendedores culturales en
+            general, diferentes herramientas para la comercialización o difusión
+            de sus obras o servicios. <br />
+            <br />
+            ¿Qué estás esperando? Regístrate y sé parte de M.A.S.C.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+</section>
+
+<div class="row align-items-md-stretch py-2">
+  <div class="col-md-6">
+    <div class="h-100 p-5 text-white bg-success rounded-3">
+      <h2>No compartiremos tus datos</h2>
+
+      <p>
+        Tus datos estan seguros con nosotros.<br />
+
+        Al registrarte estás aceptando nuestros Términos y Condiciones.
+      </p>
+      <button
+        class="btn btn-outline-light"
+        type="button"
+        (click)="navigateToTyC()"
+      >
+        Términos y Condiciones
+      </button>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3 d-flex">
+      <img
+        class="rounded-3 my-5 img-fluid animated bounce"
+        src="https://masc-ispc.netlify.app/assets/img//MASC_Logo_Completo_Colores.png"
+        height="200"
+        width="300"
+        alt="..."
+      />
+    </div>
+  </div>
+</div>
+<!-- Section: Design Block -->

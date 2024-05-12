@@ -1,153 +1,263 @@
 <main class="bg">
-    <header class="py-3 rounded-top mt-1" id="gradiente">
-      <div class="container px-5">
-        <div class="row gx-5 align-items-center justify-content-center">
-          <div class="col-lg-8 col-xl-7 col-xxl-6">
-            <div class="my-5 text-center text-xl-start">
-              <h1 class="display-5 fw-bolder text-white mb-4text-center text-opacity-75">El lugar donde podés<span
-                  class="rounded-3 text-success css-3d-text mt-4 animate">
-                  VIVIR DE TU CREATIVIDAD</span>
-              </h1>
-              <p class="lead fw-normal text-dark text-opacity-75 mb-4 mt-4">Si sos artista o emprendedor cultural, te invitamos a que formes parte de nuestra comunidad online.
-              <br>
-              M.A.S.C. busca potenciar la difusión y comercialización de tus productos y servicios y vincularte con la red de artistas más grande del país.</p>
-              <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                <a class="btn btn-success btn-lg px-4 me-sm-3" href="#features">Conocé más</a>
-                <a class="btn btn-outline-success btn-lg px-4" routerLink="servicios">Explorar</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center" style="max-width:30%;"><img
-              class="rounded-3 my-5 img-fluid animated bounce"
-              src=".\assets\Mano_Pinceles.png" alt="..." />
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- Features section-->
-    <section class="py-5" id="features">
-      <div class="container px-5 my-5">
-        <div class="row gx-5">
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h2 class="fw-bolder mb-0">Encontrá aquello que estas buscando.</h2>
-            <p class="lead fw-normal text-dark text-opacity-75 mb-4 mt-4">Te invitamos a que conozcas la red de artistas más grande del país que forman parte de M.A.S.C. y los productos y servicios que ofrecen.
+  <header class="py-3 rounded-top mt-1" id="gradiente">
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center justify-content-center">
+        <div class="col-lg-8 col-xl-7 col-xxl-6">
+          <div class="my-5 text-center text-xl-start">
+            <h1
+              class="display-5 fw-bolder text-white mb-4text-center text-opacity-75"
+            >
+              El lugar donde podés<span
+                class="rounded-3 text-success css-3d-text mt-4 animate"
+              >
+                VIVIR DE TU CREATIVIDAD</span
+              >
+            </h1>
+            <p class="lead fw-normal text-dark text-opacity-75 mb-4 mt-4">
+              Si sos artista o emprendedor cultural, te invitamos a que formes
+              parte de nuestra comunidad online.
+              <br />
+              M.A.S.C. busca potenciar la difusión y comercialización de tus
+              productos y servicios y vincularte con la red de artistas más
+              grande del país.
             </p>
-            <p class="lead fw-normal text-dark text-opacity-75 mb-4 mt-4">Recordá que podés registrarte para adquirirlos.
-            </p>
-            <a class="btn btn-success btn-lg px-4 me-sm-3" routerLink="registro">Registrarse</a>
-          </div>
-          <div class="col-lg-8">
-            <div class="row gx-5 row-cols-1 row-cols-md-2">
-              <div class="col mb-5 h-100">
-                <div class="feature naranja bg-gradient text-white rounded-3 mb-3 w-25 d-flex justify-content-center ">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-music">
-                    <path d="M9 18V5l12-2v13"></path>
-                    <circle cx="6" cy="18" r="3"></circle>
-                    <circle cx="18" cy="16" r="3"></circle>
-                  </svg>
-                </div>
-                <h2 class="h5">Musica</h2>
-                <p class="mb-0">Compositores y letristas crean canciones, letras y arreglos que se interpretan sobre el escenario, se graban y distribuyen a los consumidores.
-                </p>
-              </div>
-              <div class="col mb-5 mb-md-0 h-100">
-                <div class="feature naranja bg-gradient text-white rounded-3 mb-3 w-25 d-flex justify-content-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-camera">
-                    <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z">
-                    </path>
-                    <circle cx="12" cy="13" r="3"></circle>
-                  </svg>
-                </div>
-                <h2 class="h5">Fotografía</h2>
-                <p class="mb-0">Arte visual de proyectar imágenes, capturarlas y plasmarlas. Recurso de memoria personal, histórica y social.
-                </p>
-              </div>
-              <div class="col  mb-5 h-100">
-                <div class="feature naranja bg-gradient text-white rounded-3 mb-3 w-25 d-flex justify-content-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-brush">
-                    <path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"></path>
-                    <path
-                      d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z">
-                    </path>
-                  </svg>
-                </div>
-                <h2 class="h5">Pinturas</h2>
-                <p class="mb-0">Arte de representación gráfica pr medio de la utilización de pigmentos para la creación de formas y colores en distintas superficies.
-                </p>
-              </div>
-              <div class="col h-100">
-                <div class="feature naranja bg-gradient text-white rounded-3 mb-3 w-25 d-flex justify-content-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-plus">
-                    <line x1="12" x2="12" y1="5" y2="19"></line>
-                    <line x1="5" x2="19" y1="12" y2="12"></line>
-                  </svg>
-                </div>
-                <h2 class="h5">Y mucho más</h2>
-                <p class="mb-0">En M.A.S.C. sabemos que no todo queda en el uso y disfrute de las artes, también existen diversos servicios complementarios que hacen a las mismas.
-                </p>
-              </div>
+            <div
+              class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start"
+            >
+              <a class="btn btn-success btn-lg px-4 me-sm-3" href="#features"
+                >Conocé más</a
+              >
+              <a
+                class="btn btn-outline-success btn-lg px-4"
+                routerLink="servicios"
+                >Explorar</a
+              >
             </div>
           </div>
         </div>
+        <div
+          class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"
+          style="max-width: 30%"
+        >
+          <img
+            class="rounded-3 my-5 img-fluid animated bounce"
+            src=".\assets\Mano_Pinceles.png"
+            alt="..."
+          />
+        </div>
       </div>
-    </section>
-    <!-- Testimonial section-->
-    <div class="py-5 bg-gradient">
-      <div class="container px-5 my-5">
-        <div class="row gx-5 justify-content-center">
-          <div class="col-lg-10 col-xl-7">
-            <div class="text-center">
-              <div class="fs-4 mb-4 fst-italic">"La finalidad del arte es dar cuerpo a la esencia secreta de las cosas, no el copiar su apariencia."</div>
-              <div class="d-flex align-items-center justify-content-center">
-                <img class="rounded-circle me-3 avatar"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ-j00V7ytBLBzfTEcWq97zeCFXlS4Md1p39UjN2tS&s"
-                  alt="..." />
-                <div class="fw-bold">
-                  Aristóteles
-                  <span class="fw-bold text-warning mx-1">/</span>
-                  384 AC - 322 AC, Filósofo griego
-                </div>
+    </div>
+  </header>
+  <!-- Features section-->
+  <section class="py-5" id="features">
+    <div class="container px-5 my-5">
+      <div class="row gx-5">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h2 class="fw-bolder mb-0">Encontrá aquello que estas buscando.</h2>
+          <p class="lead fw-normal text-dark text-opacity-75 mb-4 mt-4">
+            Te invitamos a que conozcas la red de artistas más grande del país
+            que forman parte de M.A.S.C. y los productos y servicios que
+            ofrecen.
+          </p>
+          <p class="lead fw-normal text-dark text-opacity-75 mb-4 mt-4">
+            Recordá que podés registrarte para adquirirlos.
+          </p>
+          <a class="btn btn-success btn-lg px-4 me-sm-3" routerLink="register"
+            >Registrarse</a
+          >
+        </div>
+        <div class="col-lg-8">
+          <div class="row gx-5 row-cols-1 row-cols-md-2">
+            <div class="col mb-5 h-100">
+              <div
+                class="feature naranja bg-gradient text-white rounded-3 mb-3 w-25 d-flex justify-content-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-music"
+                >
+                  <path d="M9 18V5l12-2v13"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+              </div>
+              <h2 class="h5">Musica</h2>
+              <p class="mb-0">
+                Compositores y letristas crean canciones, letras y arreglos que
+                se interpretan sobre el escenario, se graban y distribuyen a los
+                consumidores.
+              </p>
+            </div>
+            <div class="col mb-5 mb-md-0 h-100">
+              <div
+                class="feature naranja bg-gradient text-white rounded-3 mb-3 w-25 d-flex justify-content-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-camera"
+                >
+                  <path
+                    d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"
+                  ></path>
+                  <circle cx="12" cy="13" r="3"></circle>
+                </svg>
+              </div>
+              <h2 class="h5">Fotografía</h2>
+              <p class="mb-0">
+                Arte visual de proyectar imágenes, capturarlas y plasmarlas.
+                Recurso de memoria personal, histórica y social.
+              </p>
+            </div>
+            <div class="col mb-5 h-100">
+              <div
+                class="feature naranja bg-gradient text-white rounded-3 mb-3 w-25 d-flex justify-content-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-brush"
+                >
+                  <path
+                    d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"
+                  ></path>
+                  <path
+                    d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"
+                  ></path>
+                </svg>
+              </div>
+              <h2 class="h5">Pinturas</h2>
+              <p class="mb-0">
+                Arte de representación gráfica pr medio de la utilización de
+                pigmentos para la creación de formas y colores en distintas
+                superficies.
+              </p>
+            </div>
+            <div class="col h-100">
+              <div
+                class="feature naranja bg-gradient text-white rounded-3 mb-3 w-25 d-flex justify-content-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-plus"
+                >
+                  <line x1="12" x2="12" y1="5" y2="19"></line>
+                  <line x1="5" x2="19" y1="12" y2="12"></line>
+                </svg>
+              </div>
+              <h2 class="h5">Y mucho más</h2>
+              <p class="mb-0">
+                En M.A.S.C. sabemos que no todo queda en el uso y disfrute de
+                las artes, también existen diversos servicios complementarios
+                que hacen a las mismas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial section-->
+  <div class="py-5 bg-gradient">
+    <div class="container px-5 my-5">
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-10 col-xl-7">
+          <div class="text-center">
+            <div class="fs-4 mb-4 fst-italic">
+              "La finalidad del arte es dar cuerpo a la esencia secreta de las
+              cosas, no el copiar su apariencia."
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <img
+                class="rounded-circle me-3 avatar"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ-j00V7ytBLBzfTEcWq97zeCFXlS4Md1p39UjN2tS&s"
+                alt="..."
+              />
+              <div class="fw-bold">
+                Aristóteles
+                <span class="fw-bold text-warning mx-1">/</span>
+                384 AC - 322 AC, Filósofo griego
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Call to action-->
-    <aside class="bg-gradient bg-success p-4 p-sm-5 mt-5 rounded-bottom mb-1">
-      <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-        <div class="mb-4 mb-xl-4">
-          <div class="fs-3 fw-bold text-white">Estamos creciendo para vos.</div>
-          <div class="text-white-50">Registrate para recibir las ultimas novedades.</div>
-        </div>
-        <div class="ms-xl-4">
-          <div class="d-flex justify-content-center">
-            <a class="btn btn-success btn-lg px-4" routerLink="terminosycondiciones"><svg
-                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="lucide lucide-heart-handshake">
-                <path
-                  d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
-                </path>
-                <path
-                  d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66">
-                </path>
-                <path d="m18 15-2-2"></path>
-                <path d="m15 18-2-2"></path>
-              </svg> Terminos y Condiciones</a>
-          </div>
-          <div class="small text-white-50">- No compartimos tus datos con nadie.
-          </div>
+  </div>
+  <!-- Call to action-->
+  <aside class="bg-gradient bg-success p-4 p-sm-5 mt-5 rounded-bottom mb-1">
+    <div
+      class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start"
+    >
+      <div class="mb-4 mb-xl-4">
+        <div class="fs-3 fw-bold text-white">Estamos creciendo para vos.</div>
+        <div class="text-white-50">
+          Registrate para recibir las ultimas novedades.
         </div>
       </div>
-    </aside>
-  </main>
-  
+      <div class="ms-xl-4">
+        <div class="d-flex justify-content-center" (click)="navigateToTyC()">
+          <a
+            class="btn btn-success btn-lg px-4"
+            routerLink="terms-and-conditions"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-heart-handshake"
+            >
+              <path
+                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+              ></path>
+              <path
+                d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"
+              ></path>
+              <path d="m18 15-2-2"></path>
+              <path d="m15 18-2-2"></path>
+            </svg>
+            Terminos y Condiciones</a
+          >
+        </div>
+        <div class="small text-white-50">
+          - No compartimos tus datos con nadie.
+        </div>
+      </div>
+    </div>
+  </aside>
+</main>

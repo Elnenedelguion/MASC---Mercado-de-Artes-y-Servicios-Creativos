@@ -1,0 +1,154 @@
+<!-- Section: Design Block -->
+<section class="d-flex flex-column">
+  <!-- Jumbotron -->
+  <div
+    class="px-4 py-5 px-md-5 text-center text-lg-start"
+    style="background-color: hsl(0, 0%, 96%)"
+  >
+    <div class="container">
+      <div class="row gx-lg-5 align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="card">
+            <div class="card-body py-5 px-md-5">
+              <form [formGroup]="loginForm">
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input
+                    formControlName="email"
+                    type="email"
+                    id="form3Example3"
+                    class="form-control"
+                  />
+                  <!--  
+                  <div
+                    *ngIf="email.invalid && (email.dirty || email.touched)"
+                    class="alert text-danger"
+                  >
+                    <div *ngIf="email.errors?.['required']">
+                      El correo es requerido.
+                    </div>
+                    <div *ngIf="email.errors?.['email']">
+                      El correo debe tener un formato válido.
+                    </div>
+                  </div>-->
+
+                  <label class="form-label" for="form3Example3"
+                    >Correo Electrónico</label
+                  >
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input
+                    formControlName="password"
+                    type="password"
+                    id="form3Example4"
+                    class="form-control"
+                  />
+                  <!--  
+                  <div
+                    *ngIf="
+                      password.invalid && (password.dirty || password.touched)
+                    "
+                    class="alert text-danger"
+                  >
+                    <div *ngIf="password.errors?.['required']">
+                      La contraseña es requerida.
+                    </div>
+                    <div *ngIf="password.errors?.['minlength']">
+                      La contraseña debe tener mínimo 5 caracteres.
+                    </div>
+                  </div>-->
+
+                  <label class="form-label" for="form3Example4"
+                    >Contraseña</label
+                  >
+                </div>
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="form2Example33"
+                    checked
+                  />
+                  <label class="form-check-label" for="form2Example33">
+                    Recuerdame
+                  </label>
+                </div>
+
+                <!-- Submit button -->
+                <button
+                  type="submit"
+                  (click)="login()"
+                  class="btn btn-success btn-block mb-4 text-center"
+                >
+                  Iniciar Sesión
+                </button>
+                <div class="mb-4 text-black text-opacity-50">
+                  ¿No estás registrado aún?
+                </div>
+                <button
+                  type=" submit"
+                  class="btn btn-success btn-block mb-4"
+                  routerLink="/registro"
+                >
+                  Registrarse
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h1 class="my-5 display-3 fw-bold ls-tight">
+            ¡Bienvenidx! <br /><span class="text-success"> Inicia Sesión</span
+            ><br />
+            <span class="text-black text-opacity-50">Para ver tu Perfil</span>
+          </h1>
+          <p style="color: hsl(217, 10%, 50.8%)">
+            M.A.S.C. es una plataforma digital dedicada a la difusión de
+            artistas y eventos culturales. Permite que los artistas de
+            diferentes disciplinas puedan publicar sus obras y venderlas
+            utilizando el sistema de tienda virtual implementado en la página.
+            Además, los usuarios en general pueden informarse de las novedades
+            de eventos, convocatorias, residencias, talleres de formación,
+            concursos, entre otras noticias de ámbito cultural. <br />
+            <br />
+            Para no perderte nada acerca de la industria cultural,
+            <strong>inicia sesión</strong>, y si todavía no tenés una cuenta
+            <strong>regístrate</strong> gratis.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+</section>
+
+<div class="row align-items-md-stretch py-2">
+  <div class="col-md-6">
+    <div class="h-100 p-5 text-white bg-success rounded-3">
+      <h2>Cuidado Con Las Estafas</h2>
+      <p class="mt-4">
+        Tu seguridad es lo más importante, es por ello que: <br />
+        Jamás te pediremos datos personales más de los necesarios para
+        registrarte. <br />
+        No debes compartir tus claves y usuario.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <img
+        class="rounded-3 my-5 img-fluid animated bounce"
+        src="https://masc-ispc.netlify.app/assets/img//MASC_Logo_Completo_Colores.png"
+        height="200"
+        width="300"
+        alt="..."
+      />
+    </div>
+  </div>
+</div>
+<!-- Section: Design Block -->
