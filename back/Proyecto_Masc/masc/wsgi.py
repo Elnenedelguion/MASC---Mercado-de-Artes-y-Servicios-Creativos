@@ -1,5 +1,5 @@
 """
-WSGI config for Proyecto_Masc.
+WSGI config for for masc project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
