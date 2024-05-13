@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'masc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'MASCdb',
+        'NAME': 'MASC',
         'USER': 'masc',
         'PASSWORD': 'masc1234',
-        'HOST': 'localhost 127.0.0.1',  
+        'HOST': 'localhost',  
         'PORT': '3306',  
     }
 }
