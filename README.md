@@ -18,7 +18,7 @@
 
 :small_orange_diamond: GARAY, DIEGO
 
-:small_orange_diamond: SUAREZ, FLAVIA
+:small_orange_diamond: SUAREZ BONAHORA, FLAVIA
 
 :small_orange_diamond: RUIZ, NATALIA
 
