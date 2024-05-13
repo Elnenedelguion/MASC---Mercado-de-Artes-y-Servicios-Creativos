@@ -20,7 +20,7 @@
 
 :small_orange_diamond: SUAREZ BONAHORA, FLAVIA
 
-:small_orange_diamond: RUIZ, NATALIA
+:small_orange_diamond: RUIZ, NATALIA 
 
 :small_orange_diamond: OLIVERIO, ARCE
 
