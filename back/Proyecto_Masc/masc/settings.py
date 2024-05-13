@@ -81,10 +81,19 @@ DATABASES = {
         'NAME': 'MASC',
         'USER': 'masc',
         'PASSWORD': 'masc1234',
-        'HOST': 'localhost',  
+        'HOST': 'localhost', 
+        'PORT': '3306',  
+    },
+    'extra_db': {  
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'MASC',
+        'USER': 'masc',
+        'PASSWORD': 'masc1234',
+        'HOST': '127.0.0.1', 
         'PORT': '3306',  
     }
 }
+
 
 
 # Password validation
