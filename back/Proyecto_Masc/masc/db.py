@@ -1,4 +1,4 @@
-MySQL={
+MySQL= {
 
     'default': {
         'ENGINE': 'django.db.backends.mysql',
