@@ -42,4 +42,7 @@ En M.A.S.C. tenemos la misión de promover la difusión y comercialización de p
 
 :small_orange_diamond: **Documento IEEE 830**
 En éste [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3COe_k/edit) pueden consultar el Documento de Especificación de requisitos de software de nuestra app.
+
+:small_orange_diamond: **DER**
+Diagrama entidad relacion:[link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2/edit?viewport_loc=-2896%2C-634%2C2694%2C1221%2C0_0&invitationId=inv_50432734-8597-4bad-b6b7-f21e6eed6254)
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
