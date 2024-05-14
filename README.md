@@ -26,7 +26,7 @@
 
 :small_orange_diamond: MEDINA, PABLO
 
-:small_orange_diamond: MEIER, IVAN
+:small_orange_diamond: MEIER, IVAN DIDIER
 
 :small_orange_diamond: CHAUMONT, GISELLE
 
