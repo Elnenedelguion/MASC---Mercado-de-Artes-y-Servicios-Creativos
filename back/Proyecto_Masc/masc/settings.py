@@ -76,9 +76,7 @@ WSGI_APPLICATION = 'masc.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = MySQL{
-    
-}
+DATABASES = MySQL
 
 
 
