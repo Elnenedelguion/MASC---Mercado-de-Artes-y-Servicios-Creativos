@@ -41,8 +41,16 @@ En M.A.S.C. tenemos la misión de promover la difusión y comercialización de p
 :point_right: Documentación
 
 :small_orange_diamond: **Documento IEEE 830**
-En éste [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3COe_k/edit) pueden consultar el Documento de Especificación de requisitos de software de nuestra app.
+En este [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3COe_k/edit?usp=sharing&ouid=105320720932750339924&rtpof=true&sd=true) pueden consultar el Documento de Especificación de requisitos de software IEE830.
 
-:small_orange_diamond: **DER**
-Diagrama entidad relacion:[link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2/edit?viewport_loc=-2896%2C-634%2C2694%2C1221%2C0_0&invitationId=inv_50432734-8597-4bad-b6b7-f21e6eed6254)
+:small_orange_diamond: **DRIVE Grupal**
+En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena toda la documentación de M.A.S.C 
+
+:small_orange_diamond: **Modelo DER**
+En este [link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2/edit?viewport_loc=-2896%2C-634%2C2694%2C1221%2C0_0&invitationId=inv_50432734-8597-4bad-b6b7-f21e6eed6254) se almacena el Diagrama entidad relación.
+
+:small_orange_diamond: **Ideaboardz Retrospective**
+En este [link](https://docs.google.com/document/d/1qgkLQ8mTe_9V-sUzFtl0-JhwNDKV2b7ik7rZk2Tu-o0/edit?usp=sharing) se adjunta el Retrospective Sprint 01.
+
+
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
