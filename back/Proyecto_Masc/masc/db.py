@@ -2,7 +2,7 @@ MySQL= {
 
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'MASC',
+        'NAME': 'abm_masc',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
