@@ -60,6 +60,8 @@ En este [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3CO
 :small_orange_diamond: **DRIVE Grupal**
 En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena toda la documentación de M.A.S.C 
 
+:point_right: Modelo Entidad - Relacion
+
 :small_orange_diamond: **Modelo DER**
 En este [link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2/edit?viewport_loc=-2896%2C-634%2C2694%2C1221%2C0_0&invitationId=inv_50432734-8597-4bad-b6b7-f21e6eed6254) se almacena el Diagrama entidad relación.
 
