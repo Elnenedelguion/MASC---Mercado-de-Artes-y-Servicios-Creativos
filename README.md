@@ -34,7 +34,7 @@
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
-# Guía para un Trabajo en Equipo Efectivo
+## Guía para un Trabajo en Equipo Efectivo
 
 Queremos asegurarnos de que nuestra colaboración sea eficiente y productiva para todos. Con este objetivo en mente, el equipo, ha establecido algunas pautas que nos ayudarán a mantener un flujo de trabajo  organizado y a evitar errores comunes. 
 
