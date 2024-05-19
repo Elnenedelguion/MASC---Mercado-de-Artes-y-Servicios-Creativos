@@ -10,7 +10,7 @@
 ### Ciclo lectivo: 2024
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-:point_right: Grupo M.A.S.C
+:point_right: Grupo n° 9 - M.A.S.C
 
 :small_orange_diamond: IUORIO, EDUARDO
 
@@ -31,6 +31,20 @@
 :small_orange_diamond: CHAUMONT, GISELLE
 
 :small_orange_diamond: RINAUDO, LUCIANO
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+# Guía para un Trabajo en Equipo Efectivo
+
+Queremos asegurarnos de que nuestra colaboración sea eficiente y productiva para todos. Con este objetivo en mente, el equipo, ha establecido algunas pautas que nos ayudarán a mantener un flujo de trabajo  organizado y a evitar errores comunes. 
+
+:point_right: Reglas principales:
+
+:small_orange_diamond:Revisar antes de Merge: Antes de realizar un merge, por favor consulta con el equipo. Esto nos ayudará a asegurar que todas las contribuciones sean revisadas y aprobadas correctamente.
+
+:small_orange_diamond:Creación de Nuevas Ramas: Para crear una nueva rama, por favor avisa al equipo. Esto nos permitirá llevar un control adecuado y evitar duplicidades o conflictos innecesarios.
+
+:small_orange_diamond:Borrado de Ramas: No se debe borrar ninguna rama sin antes haberlo consultado con el equipo. Es importante que todas las decisiones sobre el manejo de ramas sean consensuadas para mantener la integridad del proyecto.
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
