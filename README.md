@@ -71,4 +71,10 @@ En este [link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2
 En este [link](https://docs.google.com/document/d/1qgkLQ8mTe_9V-sUzFtl0-JhwNDKV2b7ik7rZk2Tu-o0/edit?usp=sharing) se adjunta el Ideaboardz Retrospective Sprint 01.
 
 
+:point_right: Credenciales Superuser
+
+:small_orange_diamond: **Tablero Django admin**
+En este [link](https://docs.google.com/document/d/1ONmvMrM73k-H0HxQR4vlVE1lLOUD23st/edit?usp=sharing&ouid=105320720932750339924&rtpof=true&sd=true) se adjunta word con las credenciales del superusuario.
+
+
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
