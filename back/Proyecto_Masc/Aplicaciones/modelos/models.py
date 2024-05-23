@@ -1,7 +1,9 @@
+# masc/models.py
 from django.db import models
 from django.core.validators import RegexValidator
 from django.contrib.auth.models import User
 from django.utils import timezone
+
 
 
 class Usuario (models.Model):
@@ -50,4 +52,7 @@ class Producto(models.Model):
     descripcion = models.TextField()
     precio = models.DecimalField(max_digits=10, decimal_places=2)
     fecha_creacion_producto = models.DateTimeField(default=timezone.now)
+    stock = models.IntegerField()
 
+    def __str__(self):
+        return self.nombre

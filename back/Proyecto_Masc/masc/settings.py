@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Aplicaciones.modelos',
     'rest_framework',
-    'appMasc',
+    'masc',
 ]
 
     
