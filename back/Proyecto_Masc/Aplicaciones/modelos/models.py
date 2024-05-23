@@ -2,10 +2,9 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.core.validators import RegexValidator
-from django.contrib.auth.models import User
 from django.utils import timezone
-from .models import Producto
-from .models import Carrito
+from .models import Producto, Carrito
+
 
 
 
