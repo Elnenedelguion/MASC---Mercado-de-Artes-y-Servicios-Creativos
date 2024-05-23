@@ -1,5 +1,4 @@
-![masc3](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/2f254bdc-5bf8-47f9-9659-4cded97930df)
-
+[link](https://drive.google.com/file/d/1cantSQ7dR_7YkMSbBhhCicXkixOZ1HBw/view?usp=sharing)
 
 ### Instituto Superior Politécnico Córdoba
 
