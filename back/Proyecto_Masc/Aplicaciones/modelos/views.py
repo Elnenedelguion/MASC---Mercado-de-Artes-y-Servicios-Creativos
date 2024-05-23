@@ -1,12 +1,8 @@
 # masc/views.py
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import Producto
-from .serializers import ProductoSerializer
-from .models import Carrito
-from .models import CarritoProducto
-from .serializers  import CarritoSerializer
-from .serializers  import CarritoProductoSerializer
+from .models import Producto, Carrito, CarritoProducto
+from .serializers import ProductoSerializer, CarritoSerializer, CarritoProductoSerializer
 
 
 class ProductoViewSet(viewsets.ModelViewSet):
