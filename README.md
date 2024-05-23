@@ -50,7 +50,7 @@ Queremos asegurarnos de que nuestra colaboración sea eficiente y productiva par
 
 # ¿Qué es M.A.S.C?: 
 
-Te lo contamos en este link https://drive.google.com/file/d/1cFhnegvikbpYg3FlBX8Z31JEV304_W52/view?usp=sharing
+Te lo contamos en este [link](https://drive.google.com/file/d/1cFhnegvikbpYg3FlBX8Z31JEV304_W52/view?usp=sharing)
 
 :point_right: Documentación
 
