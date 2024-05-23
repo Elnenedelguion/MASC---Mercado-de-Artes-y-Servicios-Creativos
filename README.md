@@ -1,4 +1,4 @@
-![masc](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/16749f76-4060-4195-ab0a-9ac6c29526c4)
+![masc 1](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/3e63de27-e572-4064-9c88-96de919e52e0)
 
 
 ### Instituto Superior Politécnico Córdoba
@@ -51,6 +51,8 @@ Queremos asegurarnos de que nuestra colaboración sea eficiente y productiva par
 # ¿Qué es M.A.S.C?: 
 
 Te lo contamos en este [link](https://drive.google.com/file/d/1cFhnegvikbpYg3FlBX8Z31JEV304_W52/view?usp=sharing)
+![masc 2](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/d5bbb11a-d305-4e38-9271-aeca69b372f1)
+
 
 :point_right: Documentación
 
