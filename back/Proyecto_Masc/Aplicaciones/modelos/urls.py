@@ -1,8 +1,9 @@
-# masc/urls.py
+
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import RegisterView
-from .views import ProductoViewSet,CarritoViewSet,CarritoProductoViewSet,HistorialCarritoViewSet
+from .views import ProductoViewSet, CarritoViewSet, CarritoProductoViewSet, HistorialCarritoViewSet
+
 
 
 from rest_framework_simplejwt.views import (
@@ -16,7 +17,6 @@ router.register(r'productos', ProductoViewSet)
 router.register(r'carritos', CarritoViewSet)
 router.register(r'carrito-productos', CarritoProductoViewSet)
 router.register(r'historial-carritos', HistorialCarritoViewSet)
-
 
 # Definir los patrones de URL
 urlpatterns = [

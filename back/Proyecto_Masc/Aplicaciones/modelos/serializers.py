@@ -1,7 +1,8 @@
 # masc/serializers.py
 from rest_framework import serializers
-from .models import Producto, Carrito, CarritoProducto, HistorialCarrito
 from django.contrib.auth.models import User
+from .producto_models import Producto
+from .carrito_models import Carrito, CarritoProducto, HistorialCarrito
 
 
 
