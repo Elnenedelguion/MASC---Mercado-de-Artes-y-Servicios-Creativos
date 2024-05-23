@@ -1,4 +1,4 @@
-![masc](https://drive.google.com/file/d/1cantSQ7dR_7YkMSbBhhCicXkixOZ1HBw/view?usp=sharing)
+(https://drive.google.com/file/d/1cantSQ7dR_7YkMSbBhhCicXkixOZ1HBw/view?usp=sharing)
 
 
 ### Instituto Superior Politécnico Córdoba
