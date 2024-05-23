@@ -1,13 +1,10 @@
 ![masc 1](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/3e63de27-e572-4064-9c88-96de919e52e0)
 
-### Proyecto "M.A.S.C"
-
-### Ciclo lectivo: 2024
+### Proyecto "M.A.S.C" - Mercado de arte y servicios creativos - Ciclo lectivo: 2024
 
 ### Instituto Superior Politécnico Córdoba
 
 ## Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales 
-
 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
