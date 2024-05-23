@@ -50,7 +50,7 @@ Queremos asegurarnos de que nuestra colaboración sea eficiente y productiva par
 
 # ¿Qué es M.A.S.C?: 
 
-En M.A.S.C. tenemos la misión de promover la difusión y comercialización de productos y servicios de los artistas y emprendedores culturales en general otorgándoles diferentes herramientas para la comercialización o difusión de sus obras o servicios.
+Te lo contamos en este link https://drive.google.com/file/d/1cFhnegvikbpYg3FlBX8Z31JEV304_W52/view?usp=sharing
 
 :point_right: Documentación
 
