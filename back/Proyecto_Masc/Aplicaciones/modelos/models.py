@@ -47,7 +47,7 @@ class Subcategoria (models.Model):
 class Producto(models.Model):
     categoria = models.ForeignKey(Categoria, related_name='productos', on_delete=models.CASCADE)
     subcategoria = models.ForeignKey(Subcategoria, related_name='productos', on_delete=models.CASCADE)
-    nombre_producto = models.CharField(max_length=100)
+    nombre = models.CharField(max_length=100)
     descripcion = models.TextField()
     precio = models.DecimalField(max_digits=10, decimal_places=2)
     fecha_creacion_producto = models.DateTimeField(default=timezone.now)
