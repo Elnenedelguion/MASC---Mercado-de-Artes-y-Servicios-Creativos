@@ -4,12 +4,11 @@ from rest_framework.routers import DefaultRouter
 from .views import RegisterView
 from .views import ProductoViewSet,CarritoViewSet,CarritoProductoViewSet,HistorialCarritoViewSet
 
+
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
 )
-
-
 
 # Inicializar el router
 router = DefaultRouter()
