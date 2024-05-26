@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Usuario, Pago, Categoria, Subcategoria, Producto, Carrito, CarritoProducto, HistorialCarrito, Facturacion
+from .models import Usuario, Pago, Categoria, Subcategoria, Producto, Carrito,CarritoProducto, HistorialCarrito, Facturacion
 
 admin.site.register(Usuario)
 admin.site.register(Pago)
