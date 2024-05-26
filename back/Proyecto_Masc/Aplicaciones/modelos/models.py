@@ -16,9 +16,7 @@ class Usuario (models.Model):
     fecha_creacion_usuario = models.DateTimeField(default=timezone.now)
 
   
-
-
-class Pago(models.Model):
+class Pago (models.Model):
     id_producto = models.PositiveIntegerField()  
     fecha = models.DateTimeField(default=timezone.now)
   
