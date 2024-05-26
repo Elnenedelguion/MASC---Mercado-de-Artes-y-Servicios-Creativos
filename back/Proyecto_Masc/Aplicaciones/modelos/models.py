@@ -16,15 +16,6 @@ class Usuario (models.Model):
     fecha_creacion_usuario = models.DateTimeField(default=timezone.now)
 
   
-class Mensaje (models.Model):
-    id_mensaje= models.PositiveIntegerField()  
-    remitente = models.ForeignKey(User, related_name='sent_messages', on_delete=models.CASCADE)
-    destinatario = models.ForeignKey(User, related_name='received_messages', on_delete=models.CASCADE)
-    asunto = models.CharField(max_length=500)
-    body = models.TextField()
-    timestamp = models.DateTimeField(auto_now_add=True)
-    fecha_creacion_mensaje = models.DateTimeField(default=timezone.now)
-
 
 
 class Pago(models.Model):
