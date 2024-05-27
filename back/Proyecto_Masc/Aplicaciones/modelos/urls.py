@@ -1,8 +1,10 @@
 
+from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import RegisterView, UsuarioViewSet, PagoViewSet, CategoriaViewSet, SubcategoriaViewSet, ProductoViewSet,CarritoProductoViewSet, HistorialCarritoViewSet, FacturacionViewSet
+from .views import RegisterView, LoginView, LogoutView, UsuarioViewSet, PagoViewSet, CategoriaViewSet, SubcategoriaViewSet, ProductoViewSet, CarritoProductoViewSet, HistorialCarritoViewSet, FacturacionViewSet
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from .views import index
 
 # Inicializar el router
 router = DefaultRouter()
@@ -21,5 +23,8 @@ urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/register/', RegisterView.as_view(), name='auth_register'),
-    # Incluir otros patrones de URLs más adelante si es necesario
+    path('api/login/', LoginView.as_view(), name='auth_login'),
+    path('api/logout/', LogoutView.as_view(), name='auth_logout'),
+    path('', index, name='index'),
+    path('admin/', admin.site.urls),
 ]

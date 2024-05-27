@@ -1,10 +1,15 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, generics, status
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework.permissions import AllowAny
+from django.contrib.auth import login, logout, authenticate
+from django.contrib.auth.hashers import make_password
+from django.shortcuts import render
 from .models import Usuario, Pago, Categoria, Subcategoria, Producto, CarritoProducto, HistorialCarrito, Facturacion
 from .serializers import UsuarioSerializer, PagoSerializer, CategoriaSerializer, SubcategoriaSerializer, ProductoSerializer, CarritoProductoSerializer, HistorialCarritoSerializer, FacturacionSerializer, RegisterSerializer
-from rest_framework import generics
-from rest_framework.response import Response
-from rest_framework import status
-from rest_framework.permissions import AllowAny
+
+def index(request):
+    return render(request, 'index.html')
 
 class UsuarioViewSet(viewsets.ModelViewSet):
     queryset = Usuario.objects.all()
@@ -39,13 +44,35 @@ class FacturacionViewSet(viewsets.ModelViewSet):
     serializer_class = FacturacionSerializer
 
 class RegisterView(generics.CreateAPIView):
-     queryset = Usuario.objects.all()
-     permission_classes = (AllowAny,)
-     serializer_class = UsuarioSerializer
+    queryset = Usuario.objects.all()
+    permission_classes = (AllowAny,)
+    serializer_class = RegisterSerializer
 
-     def create(self, request, *args, **kwargs):
+    def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
-        self.perform_create(serializer)
+        usuario = serializer.save(password_usuario=make_password(request.data['password_usuario']))
         headers = self.get_success_headers(serializer.data)
-        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
+        return Response(UsuarioSerializer(usuario).data, status=status.HTTP_201_CREATED, headers=headers)
+
+class LoginView(APIView):
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+        user = authenticate(email=email, password=password)
+
+        if user:
+            login(request, user)
+            request.session.set_expiry(0)  # La sesión expira al cerrar el navegador
+            return Response(UsuarioSerializer(user).data, status=status.HTTP_200_OK)
+        else:
+            return Response({'detail': 'Invalid credentials'}, status=status.HTTP_404_NOT_FOUND)
+
+class LogoutView(APIView):
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        logout(request)
+        return Response(status=status.HTTP_200_OK)
