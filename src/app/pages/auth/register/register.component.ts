@@ -1,3 +1,5 @@
+import { AuthService } from '../../../services/auth.service';
+import {User} from '../../../model/user'
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
@@ -19,7 +21,7 @@ export class RegisterComponent implements OnInit {
     repeatPassword: ['', [Validators.required, Validators.minLength(5)]],
   });
 
-  constructor(private formBuilder: FormBuilder, private router: Router) {}
+  constructor(private formBuilder: FormBuilder, private authService:AuthService, private router: Router) {}
 
   ngOnInit(): void {}
 
@@ -56,5 +58,24 @@ export class RegisterComponent implements OnInit {
 
   navigateToTyC() {
     this.router.navigate(['/terms-and-conditions']);
+  }
+
+  onEnviar(event: Event): void{
+    event.preventDefault;
+    if(this.signupForm.valid){
+      console.log("Enviando al servidor...");
+      this.authService.createUser(this.signupForm.value as User).subscribe(
+        data=> {
+          if(data.id>0)
+            { alert("El registro ha sido creado satisfactoriamente. A continuación, por favor Inicie Sesión.");
+              this.router.navigate(['/login'])
+            }
+          }
+      )
+    }
+    else {
+      this.signupForm.markAllAsTouched;
+    }
+
   }
 }
