@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from django.contrib.auth.hashers import make_password
 from .models import Usuario, Pago, Categoria, Subcategoria, Producto, CarritoProducto, HistorialCarrito, Facturacion
 
 class UsuarioSerializer(serializers.ModelSerializer):
@@ -54,6 +55,9 @@ class RegisterSerializer(serializers.ModelSerializer):
             bio_usuario=validated_data.get('bio_usuario', ''),
             fotodeperfil_usuario=validated_data.get('fotodeperfil_usuario', None)
         )
-        usuario.password_usuario = validated_data['password_usuario']  # Aquí podrías usar make_password para hashear la contraseña
+        usuario.password_usuario = make_password(validated_data['password_usuario'])  # Hashear la contraseña
         usuario.save()
         return usuario
+
+    def validate_password_usuario(self, value):
+        return make_password(value)
