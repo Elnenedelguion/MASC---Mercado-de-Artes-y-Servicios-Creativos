@@ -20,7 +20,7 @@
 
 :small_orange_diamond: RUIZ, NATALIA 
 
-:small_orange_diamond: OLIVERIO, ARCE
+
 
 :small_orange_diamond: MEDINA, PABLO
 
@@ -28,7 +28,11 @@
 
 :small_orange_diamond: CHAUMONT, GISELLE
 
-:small_orange_diamond: RINAUDO, LUCIANO
+:point_right: NO PROSIGUEN
+
+:small_orange_diamond: RINAUDO, LUCIANO 
+
+:small_orange_diamond: OLIVERIO, ARCE
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
