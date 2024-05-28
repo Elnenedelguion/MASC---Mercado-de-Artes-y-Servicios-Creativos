@@ -15,7 +15,7 @@ constructor(private AboutUsService:AboutUsService)
 {
   this.profesionalList=AboutUsService.obtenerProfesionales().subscribe({
     next: (profesionalList) => {
-      this.profesionalList=this.profesionalList;
+      this.profesionalList=profesionalList;
     },
     error: (error) => {
       console.error(error)

@@ -4,13 +4,13 @@
       "id": 1,
       "nombre": "CHAUMONT MOHR GISELLE",
       "puesto": "FRONTEND - DEV",
-      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-3.png"
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
     },
     {
       "id": 2,
       "nombre": "GARAY DIEGO",
       "puesto": "BACKEND - DEV",
-      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-2.png"
     },
     {
       "id": 3,
@@ -40,16 +40,13 @@
       "id": 7,
       "nombre": "MEDINA PABLO",
       "puesto": "BACKEND  - DEV",
-      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-3.png"
     },
     {
       "id": 8,
       "nombre": "MEIER IVAN",
       "puesto": "FRONTEND  - DEV",
       "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-2.png"
-    },
-    {
-      "id": "25cc"
     }
   ]
 }
