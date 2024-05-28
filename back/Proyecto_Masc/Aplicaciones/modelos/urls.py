@@ -2,6 +2,8 @@ from django.urls import path
 from rest_framework.routers import DefaultRouter
 from .views import RegisterView, LoginView, LogoutView, UsuarioViewSet, PagoViewSet, CategoriaViewSet, SubcategoriaViewSet, ProductoViewSet, CarritoProductoViewSet, HistorialCarritoViewSet, FacturacionViewSet, index, dashboard, login_view, register_view
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from Aplicaciones.modelos.views import index, dashboard, login_view, register_view, logout_view
+
 
 
 # Inicializar el router
@@ -27,6 +29,8 @@ urlpatterns = [
     path('dashboard/', dashboard, name='dashboard'),
     path('login/', login_view, name='login'),
     path('register/', register_view, name='register'),
+    path('logout/', logout_view, name='logout'),
+ 
  
 ]
 
