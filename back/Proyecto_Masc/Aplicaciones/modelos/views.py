@@ -4,12 +4,39 @@ from rest_framework.response import Response
 from rest_framework.permissions import AllowAny
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.hashers import make_password
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Usuario, Pago, Categoria, Subcategoria, Producto, CarritoProducto, HistorialCarrito, Facturacion
 from .serializers import UsuarioSerializer, PagoSerializer, CategoriaSerializer, SubcategoriaSerializer, ProductoSerializer, CarritoProductoSerializer, HistorialCarritoSerializer, FacturacionSerializer, RegisterSerializer
+from .forms import RegisterForm  # Importar el formulario de registro
 
 def index(request):
     return render(request, 'index.html')
+
+def dashboard(request):
+    return render(request, 'dashboard.html')
+
+def login_view(request):
+    if request.method == 'POST':
+        email = request.POST.get('email')
+        password = request.POST.get('password')
+        user = authenticate(email=email, password=password)
+        if user:
+            login(request, user)
+            return redirect('dashboard')
+        else:
+            return render(request, 'login.html', {'error': 'Invalid credentials'})
+    return render(request, 'login.html')
+
+def register_view(request):
+    if request.method == 'POST':
+        form = RegisterForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            return redirect('dashboard')
+    else:
+        form = RegisterForm()
+    return render(request, 'register.html', {'form': form})
 
 class UsuarioViewSet(viewsets.ModelViewSet):
     queryset = Usuario.objects.all()
