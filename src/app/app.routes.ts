@@ -9,6 +9,7 @@ import { TermsAndConditionsComponent } from './shared/terms-and-conditions/terms
 import { ServicesComponent } from './pages/services/services.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
+
 export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about-us', component: AboutUsComponent },

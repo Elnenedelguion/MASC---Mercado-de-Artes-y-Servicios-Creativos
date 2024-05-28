@@ -8,6 +8,8 @@ import { LoginComponent } from './pages/auth/login/login.component';
 import { RegisterComponent } from './pages/auth/register/register.component';
 import { TermsAndConditionsComponent } from './shared/terms-and-conditions/terms-and-conditions.component';
 
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -21,6 +23,7 @@ import { TermsAndConditionsComponent } from './shared/terms-and-conditions/terms
     ReactiveFormsModule,
     FormsModule,
     TermsAndConditionsComponent,
+
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
