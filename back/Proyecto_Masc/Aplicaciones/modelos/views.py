@@ -7,7 +7,7 @@ from django.contrib.auth.hashers import make_password
 from django.shortcuts import render, redirect
 from .models import Usuario, Pago, Categoria, Subcategoria, Producto, CarritoProducto, HistorialCarrito, Facturacion
 from .serializers import UsuarioSerializer, PagoSerializer, CategoriaSerializer, SubcategoriaSerializer, ProductoSerializer, CarritoProductoSerializer, HistorialCarritoSerializer, FacturacionSerializer, RegisterSerializer
-from .forms import RegisterForm  # Importar el formulario de registro
+from .forms import RegisterForm 
 
 def index(request):
     return render(request, 'index.html')
