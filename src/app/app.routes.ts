@@ -8,7 +8,7 @@ import { LoginComponent } from './pages/auth/login/login.component';
 import { TermsAndConditionsComponent } from './shared/terms-and-conditions/terms-and-conditions.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
-
+import { CartComponent } from './pages/cart/cart.component';
 
 export const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -21,4 +21,5 @@ export const routes: Routes = [
   { path: 'services', component: ServicesComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path:  '**', component: NotFoundComponent},
+  { path: 'cart', component: CartComponent },
 ];
