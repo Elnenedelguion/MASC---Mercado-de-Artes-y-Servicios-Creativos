@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { validarCoincidenciaContraseñas } from './validation.service'; 
+
 
 @Component({
   selector: 'app-register',
@@ -12,13 +14,15 @@ import { Router } from '@angular/router';
   templateUrl: './register.component.html',
   styleUrl: './register.component.css',
 })
+
+
 export class RegisterComponent implements OnInit {
   signupForm = this.formBuilder.group({
     name: ['', [Validators.required, Validators.minLength(3)]],
     surname: ['', [Validators.required, Validators.minLength(3)]],
     email: ['', [Validators.required, Validators.email]],
     password: ['', [Validators.required, Validators.minLength(5)]],
-    repeatPassword: ['', [Validators.required, Validators.minLength(5)]],
+    repeatPassword: ['', [Validators.required, Validators.minLength(5), validarCoincidenciaContraseñas]],
   });
 
   constructor(private formBuilder: FormBuilder, private authService:AuthService, private router: Router) {}
@@ -45,13 +49,17 @@ export class RegisterComponent implements OnInit {
     return this.signupForm.controls.repeatPassword;
   }
 
+ 
+
+
+
   signup() {
     if (this.signupForm.valid) {
       console.log('Iniciar Sesión');
       this.router.navigateByUrl('/');
       this.signupForm.reset();
     } else {
-      this.signupForm.markAllAsTouched();
+      this.signupForm.markAllAsTouched ();
       alert('Para registrarse debe completar todos los campos');
     }
   }
@@ -74,7 +82,7 @@ export class RegisterComponent implements OnInit {
       )
     }
     else {
-      this.signupForm.markAllAsTouched;
+      this.signupForm.markAllAsTouched ();
     }
 
   }
