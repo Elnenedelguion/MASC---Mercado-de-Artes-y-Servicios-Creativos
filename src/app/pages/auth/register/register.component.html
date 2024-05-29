@@ -86,9 +86,8 @@
       <div *ngIf="repeatPassword.invalid && (repeatPassword.dirty || repeatPassword.touched)" class="alert alert-danger">
         <div *ngIf="repeatPassword.errors?.['required']">Repetir contraseña.</div>
         <div *ngIf="repeatPassword.errors?.['minlength']">La contraseña debe tener mínimo 5 caracteres.</div>
-        <div *ngIf="repeatPassword.errors?.['required']">Las contraseñas no coinciden.</div>
-      
-      </div>
+        <div *ngIf="signupForm.hasError('passwordMismatch', 'repeatPassword')">Las contraseñas no coinciden.
+        </div></div>
     </div>
 
                 <!-- Submit button -->
