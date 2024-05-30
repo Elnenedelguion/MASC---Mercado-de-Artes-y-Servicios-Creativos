@@ -7,7 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './pages/auth/login/login.component';
 import { RegisterComponent } from './pages/auth/register/register.component';
 import { TermsAndConditionsComponent } from './shared/terms-and-conditions/terms-and-conditions.component';
-import { CartComponent } from './pages/cart/cart.component';
+
 
 
 
@@ -25,7 +25,7 @@ import { CartComponent } from './pages/cart/cart.component';
     ReactiveFormsModule,
     FormsModule,
     TermsAndConditionsComponent,
-    CartComponent,
+  
 
   ],
   templateUrl: './app.component.html',
