@@ -23,13 +23,19 @@
           class="form-control"
         />
         <label class="form-label" for="form3Example1">Nombre</label>
-        <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert alert-danger">
-          <div *ngIf="name.errors?.['required']">El nombre es requerido.</div>
-          <div *ngIf="name.errors?.['minlength']">El nombre debe tener mínimo 3 caracteres.</div>
-        </div>
-      </div>
+        @if(name.invalid && (name.dirty || name.touched)){
+          <div class="alert alert-danger">
+         @if(name.errors?.['required']){
+          <div>El nombre es requerido.</div>
+         }
+          @if(name.errors?.['minlength']){
+            <div>El nombre debe tener mínimo 3 caracteres.</div>
+          
+          }
+        </div>  
+      } 
     </div>
-
+    </div>
 
     <div class="col-md-6 mb-4">
       <div class="form-outline"></div>
@@ -40,10 +46,16 @@
           class="form-control"
         />
         <label class="form-label" for="form3Example2">Apellido</label>
-        <div *ngIf="surname.invalid && (surname.dirty || surname.touched)" class="alert alert-danger">
-          <div *ngIf="surname.errors?.['required']">El apellido es requerido.</div>
-          <div *ngIf="surname.errors?.['minlength']">El apellido debe tener mínimo 3 caracteres.</div>
-        </div>
+        @if(surname.invalid && (surname.dirty || surname.touched)){
+          <div class="alert alert-danger">
+        @if(surname.errors?.['required']){
+          <div>El apellido es requerido.</div>
+        }
+          @if(surname.errors?.['minlength']){
+            <div>El apellido debe tener mínimo 3 caracteres.</div>
+          }
+          
+        </div>}
       </div>
     </div>
 
@@ -55,10 +67,17 @@
         class="form-control"
       />
       <label class="form-label" for="form3Example3">Correo Electrónico</label>
-      <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
-        <div *ngIf="email.errors?.['required']">El correo es requerido.</div>
-        <div *ngIf="email.errors?.['email']">El correo debe tener un formato válido.</div>
-      </div>
+      @if(email.invalid && (email.dirty || email.touched)){
+
+      <div class="alert alert-danger">
+        @if(email.errors?.['required']){
+          <div>El correo es requerido.</div>
+        }
+        @if(email.errors?.['email']){
+          <div>El correo debe tener un formato válido.</div>
+        }
+      
+      </div>}
     </div>
 
     <div class="form-outline mb-4">
@@ -69,11 +88,19 @@
         class="form-control"
       />
       <label class="form-label" for="form3Example4">Contraseña</label>
-      <div *ngIf="password.invalid && (password.dirty || password.touched)" class="alert alert-danger">
-        <div *ngIf="password.errors?.['required']">La contraseña es requerida.</div>
-        <div *ngIf="password.errors?.['minlength']">La contraseña debe tener mínimo 5 caracteres.</div>
-      </div>
+      @if(password.invalid && (password.dirty || password.touched)){
+        <div class="alert alert-danger">
+          @if(password.errors?.['required']){
+            <div>La contraseña es requerida.</div>
+          }
+          @if(password.errors?.['minlength']){
+            <div>La contraseña debe tener mínimo 5 caracteres.</div>
+          }
+          
+        </div> 
+      }
     </div>
+ 
 
     <div class="form-outline mb-4">
       <input
@@ -83,11 +110,21 @@
         class="form-control"
       />
       <label class="form-label" for="form3Example4">Confirmar Contraseña</label>
-      <div *ngIf="repeatPassword.invalid && (repeatPassword.dirty || repeatPassword.touched)" class="alert alert-danger">
-        <div *ngIf="repeatPassword.errors?.['required']">Repetir contraseña.</div>
-        <div *ngIf="repeatPassword.errors?.['minlength']">La contraseña debe tener mínimo 5 caracteres.</div>
-        <div *ngIf="signupForm.hasError('passwordMismatch', 'repeatPassword')">Las contraseñas no coinciden.
-        </div></div>
+      @if(repeatPassword.invalid && (repeatPassword.dirty || repeatPassword.touched)){
+        <div class="alert alert-danger">
+          @if(repeatPassword.errors?.['required']){
+            <div>Repetir contraseña.</div>
+          }
+          @if(repeatPassword.errors?.['minlength']){
+            <div>La contraseña debe tener mínimo 5 caracteres.</div>
+          }
+          @if(signupForm.hasError('passwordMismatch', 'repeatPassword')){
+            <div>Las contraseñas no coinciden.</div>
+          }
+          
+          </div>
+     
+      }
     </div>
 
                 <!-- Submit button -->
@@ -98,7 +135,7 @@
                 >
                   Registrarse
                 </button>
-              </form>
+   </form>
             </div>
           </div>
         </div>
