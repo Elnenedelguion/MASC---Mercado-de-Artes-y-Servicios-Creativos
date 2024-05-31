@@ -1,0 +1,20 @@
+<p>header works!</p>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>  
+<nav class="navbar">
+    <div class="navbar-logo">
+              <i class="fa-solid fa-store fa-2x"></i>
+            </div>
+            <div class="navbar-title">Shop App</div>
+            <div class="navbar-cart" (click)="onToggleCart()">
+              @if((myCart$ | async)?.length){
+              <div class="navbar-cart-items">
+                <p>{{ (myCart$ | async)?.length }}</p>
+              </div>}
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+    </nav>
+            <div class="cart" [ngClass]="{ show: viewCart }">
+              <app-services></app-services>
+            </div>
