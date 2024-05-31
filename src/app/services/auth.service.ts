@@ -9,6 +9,8 @@ import {User} from '../model/user';
 })
 export class AuthService {
 
+  token='123456';
+
   url="https://regres.in/api/users/1";
 
   constructor(private http:HttpClient) { }
@@ -18,6 +20,7 @@ export class AuthService {
     return this.http.post(this.url, user)
   }
   
-
+isAuth(){
+  return this.token.length > 0;
 }
-
+}

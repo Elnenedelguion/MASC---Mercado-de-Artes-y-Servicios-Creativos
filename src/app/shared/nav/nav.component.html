@@ -56,7 +56,7 @@
           <button class="btn btn-success" type="button" routerLink="register">
             Registrarse
           </button>
-          <button class="navbar-cart" (click)="onToggleCart()">
+          <button class="navbar-cart" type="button" routerLink="dashboard">
             @if((myCart$ | async)?.length){
             <div class="navbar-cart-items">
               <p>{{ (myCart$ | async)?.length }}</p>
