@@ -7,6 +7,7 @@ import { Observable, catchError, throwError } from 'rxjs';
 })
 export class AboutUsService {
   url: string="http://localhost:3000/";
+  //'http://127.0.0.1'
 
   constructor(private http:HttpClient) { }
  private handleError(error: HttpErrorResponse){

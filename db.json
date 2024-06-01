@@ -41,12 +41,7 @@
       "nombre": "MEDINA PABLO",
       "puesto": "BACKEND  - DEV",
       "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-3.png"
-    },
-    {
-      "id": 8,
-      "nombre": "MEIER IVAN",
-      "puesto": "FRONTEND  - DEV",
-      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-2.png"
     }
+   
   ]
 }
