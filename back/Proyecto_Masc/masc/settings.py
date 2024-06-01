@@ -56,7 +56,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
     "http://localhost:3000",
-    "http://127.0.0.1:3000",  #  URL donde el frontend Angular está corriendo
+    "http://127.0.0.1:3000",  #  URL donde está corriendo el frontend Angular
 ]
 
 ROOT_URLCONF = 'masc.urls'
