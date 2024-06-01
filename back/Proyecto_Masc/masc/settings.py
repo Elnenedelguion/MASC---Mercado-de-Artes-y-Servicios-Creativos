@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'Aplicaciones.modelos',
     'rest_framework',
     'rest_framework_simplejwt',
+    'corsheaders',
 ]
 
 REST_FRAMEWORK = {
@@ -41,6 +42,7 @@ REST_FRAMEWORK = {
 
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -48,6 +50,13 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+  
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:4200",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",  #  URL donde el frontend Angular está corriendo
 ]
 
 ROOT_URLCONF = 'masc.urls'
@@ -56,7 +65,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [ os.path.join(BASE_DIR, 'templates')
-            # Inserta aquí los directorios de templates adicionales si tienes
+            # Insertar aquí los directorios de templates adicionales 
             # BASE_DIR / 'templates',
         ],
         'APP_DIRS': True,
