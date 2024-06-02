@@ -1,0 +1,27 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>  
+<div class="container">
+    <div class="row">
+      @for(product of products; track product.id) {
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <article class="product">
+            <div class="product-header">
+              <h3 class="product-header-title">{{ product.title }}</h3>
+              <p>$ {{ product.price }}</p>
+            </div>
+            <div class="product-body">
+              <!-- <img [src]="product.images[0]" alt="" /> -->
+              <p>{{ product.description }}</p>
+            </div>
+            <div class="product-footer">
+              <button class="product-footer-button" (click)="addToCart(product)">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      }
+    </div>
+  </div>
+  

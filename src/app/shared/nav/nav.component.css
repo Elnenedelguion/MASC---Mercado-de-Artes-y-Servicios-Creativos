@@ -1,0 +1,12 @@
+.naranja {
+    background-color: #ff9933;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-weight: 800;
+  }
+  
