@@ -43,9 +43,9 @@ REST_FRAMEWORK = {
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -56,8 +56,30 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
     "http://localhost:3000",
-    "http://127.0.0.1:3000",  #  URL donde está corriendo el frontend Angular
+    "http://127.0.0.1:3000",  
+    #  URL donde está corriendo el frontend Angular
 ]
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOW_METHODS = [
+    "GET",
+    "POST",
+    "PUT",
+    "PATCH",
+    "DELETE",
+    "OPTIONS",
+]
+
+CORS_ALLOW_HEADERS = [
+    "Content-Type",
+    "Authorization",
+    "X-Requested-With",
+    "Accept",
+]
+
+
+
+
 
 ROOT_URLCONF = 'masc.urls'
 
