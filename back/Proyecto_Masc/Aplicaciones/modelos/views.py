@@ -24,7 +24,7 @@ def login_view(request):
             login(request, user)
             return redirect('dashboard')
         else:
-            return render(request, 'login.html', {'error': 'Invalid credentials'})
+            return render(request, 'login.html', {'error': 'Credencial invalida, lo siento'})
     return render(request, 'login.html')
 
 def register_view(request):
@@ -83,8 +83,10 @@ class RegisterView(generics.CreateAPIView):
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
-        usuario = serializer.save(password_usuario=make_password(request.data['password_usuario']))
         headers = self.get_success_headers(serializer.data)
+        usuario = serializer.save(password_usuario=make_password(request.data['password_usuario']))
+        login(request, usuario, backend='Aplicaciones.modelos.backends.UsernameBackend')
+   
         return Response(UsuarioSerializer(usuario).data, status=status.HTTP_201_CREATED, headers=headers)
 
 class LoginView(APIView):
@@ -100,7 +102,7 @@ class LoginView(APIView):
             request.session.set_expiry(0)  # La sesión expira al cerrar el navegador
             return Response(UsuarioSerializer(user).data, status=status.HTTP_200_OK)
         else:
-            return Response({'detail': 'Invalid credentials'}, status=status.HTTP_404_NOT_FOUND)
+            return Response({'detail': 'Credenciales invalidas, lo siento'}, status=status.HTTP_404_NOT_FOUND)
 
 class LogoutView(APIView):
     permission_classes = [AllowAny]
