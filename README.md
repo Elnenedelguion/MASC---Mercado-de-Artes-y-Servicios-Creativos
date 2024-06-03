@@ -52,6 +52,7 @@ En este [link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2
 
 :small_orange_diamond: **Tablero de Sprint Retrospectives**
 En este [link](https://docs.google.com/document/d/1qgkLQ8mTe_9V-sUzFtl0-JhwNDKV2b7ik7rZk2Tu-o0/edit?usp=sharing) se adjunta el Ideaboardz Retrospective Sprint 01.
+En este [link] se adjunta el Ideaboardz Retrospective Sprint 01.
 
 
 :point_right: Credenciales Superuser
