@@ -62,7 +62,7 @@ SIMPLE_JWT = {
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',  # Este es el backend predeterminado
-    'Aplicaciones.modelos.backends.EmailBackend',  # Si tienes un backend personalizado para autenticar por email
+    'Aplicaciones.modelos.backends.UsernameBackend',  # Si tienes un backend personalizado para autenticar por email
 ]
 
 

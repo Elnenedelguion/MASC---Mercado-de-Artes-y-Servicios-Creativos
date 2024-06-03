@@ -17,9 +17,9 @@ def dashboard(request):
 
 def login_view(request):
     if request.method == 'POST':
-        email = request.POST.get('email')
+        username = request.POST.get('username')
         password = request.POST.get('password')
-        user = authenticate(email=email, password=password)
+        user = authenticate(usernamel=username, password=password)
         if user:
             login(request, user)
             return redirect('dashboard')

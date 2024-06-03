@@ -11,9 +11,9 @@
     {% endif %}
     <form method="post">
         {% csrf_token %}
-        <label for="email">Email:</label>
-        <input type="email" name="email" required>
-        <label for="password">Password:</label>
+        <label for="username">Usuario:</label>
+        <input type="text" name="username" required>
+        <label for="password">Contraseña:</label>
         <input type="password" name="password" required>
         <button type="submit">Login</button>
     </form>
