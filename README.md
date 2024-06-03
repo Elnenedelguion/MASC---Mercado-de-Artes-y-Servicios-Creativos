@@ -11,29 +11,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 :point_right: Integrantes Grupo n° 9 - M.A.S.C
 
-:small_orange_diamond: IUORIO, EDUARDO
-
-:small_orange_diamond: RODRIGUEZ, MARIA ALEJANDRA
-
-:small_orange_diamond: GARAY, DIEGO
-
-:small_orange_diamond: SUAREZ BONAHORA, FLAVIA
-
-:small_orange_diamond: RUIZ, NATALIA 
-
-
-
-:small_orange_diamond: MEDINA, PABLO
-
-:small_orange_diamond: MEIER, IVAN DIDIER
-
-:small_orange_diamond: CHAUMONT, GISELLE
-
-:point_right: NO PROSIGUEN
-
-:small_orange_diamond: RINAUDO, LUCIANO 
-
-:small_orange_diamond: OLIVERIO, ARCE
+A traves de este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/wiki/Integrantes-del-grupo) te contamos quienes forman y formaron parte de m.a.s.c
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
