@@ -51,8 +51,10 @@ En este [link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2
 :point_right: Metodologías ágiles 
 
 :small_orange_diamond: **Tablero de Sprint Retrospectives**
-En este [link](https://docs.google.com/document/d/1qgkLQ8mTe_9V-sUzFtl0-JhwNDKV2b7ik7rZk2Tu-o0/edit?usp=sharing) se adjunta el Ideaboardz Retrospective Sprint 01.
+En este [link](https://docs.google.com/document/d/1qgkLQ8mTe_9V-sUzFtl0-JhwNDKV2b7ik7rZk2Tu-o0/edit?usp=sharing) se adjunta el Ideaboardz Retrospective Sprint 01 - Sprint 02
 
+:small_orange_diamond: **Tablero de Sprint Reviews**
+En este [link](https://docs.google.com/document/d/1dxibkVKbtN6GQ_KSCRB87KcrgXtz2ASt9NakI2XqQks/edit) se adjunta la documentacion Sprint review 01 - Sprint review 02
 
 :point_right: Credenciales Superuser
 
