@@ -1,0 +1,47 @@
+{
+  "profesional": [
+    {
+      "id": 1,
+      "nombre": "CHAUMONT MOHR GISELLE",
+      "puesto": "FRONTEND - DEV",
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+    },
+    {
+      "id": 2,
+      "nombre": "GARAY DIEGO",
+      "puesto": "BACKEND - DEV",
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-2.png"
+    },
+    {
+      "id": 3,
+      "nombre": "RODRIGUEZ MARIA ALEJANDRA",
+      "puesto": "FRONTEND - DEV",
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+    },
+    {
+      "id": 4,
+      "nombre": "SUAREZ FLAVIA",
+      "puesto": "BACKEND - DEV",
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+    },
+    {
+      "id": 5,
+      "nombre": "IUORIO EDUARDO",
+      "puesto": "BACKEND - DEV",
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-3.png"
+    },
+    {
+      "id": 6,
+      "nombre": "RUIZ NATALIA",
+      "puesto": "FRONTEND  - DEV",
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+    },
+    {
+      "id": 7,
+      "nombre": "MEDINA PABLO",
+      "puesto": "BACKEND  - DEV",
+      "avatar": "https://bootstrapious.com/i/snippets/sn-about/avatar-3.png"
+    }
+   
+  ]
+}

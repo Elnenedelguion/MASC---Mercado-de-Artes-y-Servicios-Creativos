@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+        <form method="post" class="register-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn-register">ENVIAR</button>
+        </form>
+    </div>
+ <style>
+    .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #0c5c19;
+    border-radius: 5px;
+}
+</style>
+</body>
+</html>

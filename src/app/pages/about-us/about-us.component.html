@@ -1,0 +1,104 @@
+<main class="flex-shrink-0">
+  <!-- Header-->
+  <header class="py-5">
+    <div class="container px-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xxl-6">
+          <div class="text-center my-5">
+            <h1 class="fw-bolder mb-3">Nuestra Misión</h1>
+            <p class="lead fw-normal text-muted mb-4">
+              M.A.S.C. busca potenciar la difusión y comercialización de tus productos y servicios
+              asi como vincularte con la red de artistas más grande del país. Aquí, cada miembro tiene
+              la oportunidad de crecer y prosperar, aprovechando las oportunidades y recursos que ofrecemos
+              para desarrollar su carrera y alcanzar nuevos horizontes.
+            </p>
+            <a class="btn btn-success btn-lg" href="#scroll-target">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- About section one-->
+  <section class="py-5 bg-light" id="scroll-target">
+    <div class="container px-5 my-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6">
+          <img
+            class="img-fluid rounded mb-5 mb-lg-0"
+            src="https://as01.epimg.net/meristation/imagenes/2020/04/07/betech/1586283508_022049_1586284162_noticia_normal_recorte1.jpg"
+            alt="..."
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bolder">Nuestra Marca</h2>
+          <p class="lead fw-normal text-muted mb-0">
+            Nuestra plataforma te proporciona
+            acceso a una amplia gama de herramientas de marketing, asesoría profesional, y eventos
+            exclusivos que te permitirán exhibir tu trabajo ante una audiencia más amplia. Además,
+            fomentamos la colaboración entre artistas, creando un ambiente donde el intercambio de ideas
+            y proyectos es constante. Con M.A.S.C., no solo estás vendiendo tu arte; estás construyendo
+            una marca personal y estableciendo conexiones valiosas con otros creativos y potenciales
+            clientes en toda la nación. Nuestro compromiso es apoyarte en cada paso del camino,
+            ayudándote a transformar tu creatividad en una fuente sostenible de ingresos y éxito
+            profesional.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About section two-->
+  <section class="py-5">
+    <div class="container px-5 my-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6 order-first order-lg-last">
+          <img
+            class="img-fluid rounded mb-5 mb-lg-0"
+            src="https://img.freepik.com/fotos-premium/pintura-arte-abstracto-amor-forma-corazon-san-valentin-colores-fondo-vibrante_336343-174.jpg?w=600"
+            alt="..."
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bolder">
+            La alta productividad de las actividades culturales...
+          </h2>
+          <p class="lead fw-normal text-muted mb-0">
+            ... y sus innegables impactos en diferentes ámbitos de la economía,
+            como por ejemplo el turismo, son una clara manifestación de la
+            interconexión cultura-economía.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Team members section-->
+  <section class="py-5 bg-light">
+    <div class="container px-5 my-5">
+      <div class="text-center">
+        <h2 class="fw-bolder">Nuestro Equipo</h2>
+        <p class="lead fw-normal text-muted mb-5">
+          Aspiramos a ser la plataforma digital con e-commerce más importante
+          del país en materia de Industrias Creativas.
+        </p>
+      </div>
+      <div
+        class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center"
+      >
+
+      @for (profesional of profesionalList; track profesional.id ){
+        <div class="col mb-2 mb-2 mb-xl-0">
+          <div class="text-center">
+            <img
+              class="img-fluid rounded-circle mb-4 px-4"
+              src={{profesional.avatar}}
+              alt="..."
+            />
+            <h5 class="fw-bolder">{{profesional.nombre}}</h5>
+            <div class="fst-italic text-muted">{{profesional.puesto}}</div>
+          </div>
+        </div>
+      }
+      </div>
+    </div>
+  </section>
+</main>

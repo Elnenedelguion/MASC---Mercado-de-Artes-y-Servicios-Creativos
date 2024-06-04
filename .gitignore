@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 masc/
 !db.sqlite3
 !manage.py
+=======
+>>>>>>> back-front
 env/
 
 
@@ -46,3 +49,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+

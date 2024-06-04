@@ -1,0 +1,70 @@
+<nav
+  class="navbar navbar-expand-lg navbar-dark sticky-top naranja rounded-bottom"
+>
+  <div class="container px-5">
+    <a class="navbar-brand" href="index.html"
+      ><span class="logo"
+        ><img
+          src=".\assets\MASC_Logo_Completo_Colores.png"
+          width="150"
+          alt="..." /></span
+    ></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white text-opacity-75" routerLink="about-us"
+            >Nosotros</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white text-opacity-75" routerLink="contact"
+            >Contacto</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white text-opacity-75" routerLink="services"
+            >Servicios</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white text-opacity-75" routerLink="dashboard"
+            >Panel de Usuario</a
+          >
+        </li>
+        <form class="d-flex gap-2 px-2" role="search">
+          <button
+            class="btn btn-outline-light me-2"
+            type="button"
+            routerLink="login"
+          >
+            Iniciar Sesión
+          </button>
+          <button class="btn btn-success" type="button" routerLink="register">
+            Registrarse
+          </button>
+          <button class="navbar-cart" type="button" routerLink="dashboard">
+            @if((myCart$ | async)?.length){
+            <div class="navbar-cart-items">
+              <p>{{ (myCart$ | async)?.length }}</p>
+            </div>}
+            <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        </form>
+      </ul>
+    </div>
+  </div>
+</nav>
