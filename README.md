@@ -45,6 +45,10 @@ En este [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3CO
 :small_orange_diamond: **DRIVE Grupal**
 En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena toda la documentación de M.A.S.C 
 
+
+:small_orange_diamond: **Release MASC 1.0**
+En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/releases/tag/v1.0.0) se adjunta el Release del GRUPO M.A.S.C
+
 :point_right: Modelo Entidad - Relacion
 
 :small_orange_diamond: **Modelo DER**
@@ -65,7 +69,5 @@ En este [link](https://docs.google.com/document/d/1ONmvMrM73k-H0HxQR4vlVE1lLOUD2
 * User: root
 * Password: MASC1234
 
-:small_orange_diamond: **Release MASC 1.0**
-En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/releases/tag/v1.0.0) se adjunta el Release del GRUPO M.A.S.C
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
