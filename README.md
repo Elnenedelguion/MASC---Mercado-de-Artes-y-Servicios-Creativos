@@ -65,5 +65,7 @@ En este [link](https://docs.google.com/document/d/1ONmvMrM73k-H0HxQR4vlVE1lLOUD2
 * User: root
 * Password: MASC1234
 
+:small_orange_diamond: **Release MASC 1.0**
+En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/releases/tag/v1.0.0) se adjunta el Release del GRUPO M.A.S.C
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
