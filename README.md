@@ -62,6 +62,8 @@ En este [link](https://docs.google.com/document/d/1dxibkVKbtN6GQ_KSCRB87KcrgXtz2
 
 :small_orange_diamond: **Tablero Django admin**
 En este [link](https://docs.google.com/document/d/1ONmvMrM73k-H0HxQR4vlVE1lLOUD23st/edit?usp=sharing&ouid=105320720932750339924&rtpof=true&sd=true) se adjunta word con las credenciales del superusuario.
+* User: root
+* Password: MASC1234
 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
