@@ -1,3 +1,5 @@
+:point_right: Profesor Ugarte Marcos Augusto - Por favor, leer. Importante [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/wiki/Profesor-Ugarte-Marcos-Augusto--%E2%80%90%E2%80%90-LEER-POR-FAVOR)
+
 ![masc666](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/80b9f29d-b2c2-4cd1-858c-9646294923c0)
 
 
@@ -43,6 +45,13 @@ En este [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3CO
 :small_orange_diamond: **DRIVE Grupal**
 En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena toda la documentación de M.A.S.C 
 
+:small_orange_diamond: **Release MASC 1.0**
+En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/releases/tag/v1.0.0) se adjunta el Release del GRUPO M.A.S.C
+
+
+:small_orange_diamond: **abm_masc.sql**
+En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/blob/main/abm_masc.sql) se adjunta abm_masc.sql del GRUPO M.A.S.C
+
 :point_right: Modelo Entidad - Relacion
 
 :small_orange_diamond: **Modelo DER**
@@ -60,6 +69,8 @@ En este [link](https://docs.google.com/document/d/1dxibkVKbtN6GQ_KSCRB87KcrgXtz2
 
 :small_orange_diamond: **Tablero Django admin**
 En este [link](https://docs.google.com/document/d/1ONmvMrM73k-H0HxQR4vlVE1lLOUD23st/edit?usp=sharing&ouid=105320720932750339924&rtpof=true&sd=true) se adjunta word con las credenciales del superusuario.
+* User: root
+* Password: MASC1234
 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 

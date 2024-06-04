@@ -8,6 +8,12 @@ from django.shortcuts import render, redirect
 from .models import Usuario, Pago, Categoria, Subcategoria, Producto, CarritoProducto, HistorialCarrito, Facturacion
 from .serializers import UsuarioSerializer, PagoSerializer, CategoriaSerializer, SubcategoriaSerializer, ProductoSerializer, CarritoProductoSerializer, HistorialCarritoSerializer, FacturacionSerializer, RegisterSerializer
 from .forms import RegisterForm 
+from .models import Usuario
+
+
+class UsuarioListView(generics.ListAPIView):
+    queryset = Usuario.objects.all()
+    serializer_class = UsuarioSerializer
 
 def index(request):
     return render(request, 'index.html')
