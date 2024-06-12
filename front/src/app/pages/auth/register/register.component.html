@@ -1,0 +1,177 @@
+<section class="d-flex flex-column">
+  <!-- Jumbotron -->
+  <div class="px-4 py-5 px-md-5 text-center text-lg-start bg-body-tertiary">
+    <div class="container">
+      <div class="row gx-lg-5 align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="card">
+            <div class="card-body py-5 px-md-5">
+              <form [formGroup]="signupForm" (ngSubmit)="onSignup()">
+                <div class="row">
+                  <div class="form-group mb-4 col-md-6">
+                    <label for="firstName">Nombre</label>
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      formControlName="firstName"
+                      class="form-control"
+                    />
+                    <span
+                      class="help-block"
+                      style="color: red"
+                      *ngIf="
+                        signupForm.get('firstName')?.invalid &&
+                        signupForm.get('firstName')?.touched
+                      "
+                      >Ingresá un nombre</span
+                    >
+                  </div>
+                  <div class="form-group mb-4 col-md-6">
+                    <label for="lastName">Apellido</label>
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastName"
+                      formControlName="lastName"
+                      class="form-control"
+                    />
+                    <span
+                      class="help-block"
+                      style="color: red"
+                      *ngIf="
+                        signupForm.get('lastName')?.invalid &&
+                        signupForm.get('lastName')?.touched
+                      "
+                      >Ingresá un Apellido</span
+                    >
+                  </div>
+                </div>
+                <div class="form-group mb-4">
+                  <label for="username">Nombre de Usuario</label>
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    formControlName="username"
+                    class="form-control"
+                  />
+                  <span
+                    class="help-block"
+                    style="color: red"
+                    *ngIf="
+                      signupForm.get('username')?.invalid &&
+                      signupForm.get('username')?.touched
+                    "
+                    >Necesitás ingresar un nombre de usuario</span
+                  >
+                </div>
+                <div class="form-group mb-4">
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    formControlName="email"
+                    class="form-control"
+                  />
+                  <span
+                    class="help-block"
+                    style="color: red"
+                    *ngIf="
+                      signupForm.get('email')?.invalid &&
+                      signupForm.get('email')?.touched
+                    "
+                    >Por favor ingresá un email válido!</span
+                  >
+                </div>
+                <div formGroupName="passwords" id="pass">
+                  <div class="form-group mb-4">
+                    <label for="password">Contraseña</label>
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      formControlName="password"
+                      class="form-control"
+                    />
+                    <span
+                      class="help-block"
+                      style="color: red"
+                      *ngIf="
+                        signupForm.get('passwords.password')?.invalid &&
+                        signupForm.get('passwords.password')?.touched
+                      "
+                    >
+                      Este campo es Obligatorio</span
+                    >
+                  </div>
+                  <div class="form-group mb-4">
+                    <label for="confirmPassword">Confirmar Contraseña</label>
+                    <input
+                      type="password"
+                      id="confirmPassword"
+                      formControlName="confirmPassword"
+                      name="confirmPassword"
+                      class="form-control"
+                    />
+                    <span
+                      class="help-block"
+                      style="color: red"
+                      *ngIf="
+                        signupForm.get('passwords.confirmPassword')?.invalid &&
+                        signupForm.get('passwords.confirmPassword')?.touched
+                      "
+                    >
+                      Este campo es requerido</span
+                    >
+                    <span
+                      class="help-block"
+                      style="color: red"
+                      *ngIf="signupForm.get('passwords')?.errors?.['notsame']"
+                    >
+                      Las contraseñás deben ser las iguales!</span
+                    >
+                  </div>
+                </div>
+                <div>
+                  <button
+                    type="submit"
+                    [disabled]="!signupForm.valid"
+                    class="btn btn-success btn-block mb-4"
+                  >
+                    Registrarse
+                  </button>
+                  <div class="mb-4 text-opacity-50">¿Ya tenés una cuenta?</div>
+                  <button
+                    type=" submit"
+                    class="btn btn-success btn-block mb-4"
+                    routerLink="/login"
+                  >
+                    Iniciar Sesión
+                  </button>
+                </div>
+                <!-- Submit button -->
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h1 class="my-5 display-3 fw-bold ls-tight">
+            Regístrate para explorar<br />
+            <span class="text-success"> todas nuestras secciones</span>
+          </h1>
+          <p style="color: hsl(217, 10%, 50.8%)">
+            En M.A.S.C. tenemos la misión de promover la industria cultural del
+            país, otorgándoles a los artistas y emprendedores culturales en
+            general, diferentes herramientas para la comercialización o difusión
+            de sus obras o servicios. <br />
+            <br />
+            ¿Qué estás esperando? Regístrate y sé parte de M.A.S.C.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+</section>
