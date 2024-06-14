@@ -5,25 +5,26 @@
 
 ## Proyecto "M.A.S.C" - Mercado de arte y servicios creativos 
 
-### Instituto Superior Politécnico Córdoba - Ciclo lectivo: 2024
+### Instituto Superior Politécnico Córdoba
 
-### Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales 
+## Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales 
 
+### Proyecto "M.A.S.C"
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-:point_right: Integrantes Grupo n° 9 - M.A.S.C
-
-A traves de este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/wiki/Integrantes-del-grupo) te contamos quienes forman y formaron parte de m.a.s.c
+### Ciclo lectivo: 2024
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+:point_right: Grupo M.A.S.C
 
-## Guía para un Trabajo en Equipo Efectivo
+:small_orange_diamond: IUORIO, EDUARDO
 
-Queremos asegurarnos de que nuestra colaboración sea eficiente y productiva para todos. Con este objetivo en mente, el equipo, ha establecido algunas pautas que nos ayudarán a mantener un flujo de trabajo  organizado y a evitar errores comunes. 
+:small_orange_diamond: RODRIGUEZ, MARIA ALEJANDRA
 
-:point_right: Reglas principales:
+:small_orange_diamond: GARAY, DIEGO
 
-:small_orange_diamond:Revisar antes de Merge: Antes de realizar un merge, por favor consulta con el equipo. Esto nos ayudará a asegurar que todas las contribuciones sean revisadas y aprobadas correctamente.
+:small_orange_diamond: SUAREZ, FLAVIA
+
+:small_orange_diamond: RUIZ, NATALIA
 
 :small_orange_diamond:Creación de Nuevas Ramas: Para crear una nueva rama, por favor avisa al equipo. Esto nos permitirá llevar un control adecuado y evitar duplicidades o conflictos innecesarios.
 
