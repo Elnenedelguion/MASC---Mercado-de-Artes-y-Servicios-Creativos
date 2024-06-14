@@ -3,16 +3,16 @@
   </head>  
 <div class="container">
     <div class="row">
-      @for(product of products; track product.id) {
+      @for(product of products; track product.codigodeBarras) {
         <div class="col-lg-3 col-md-4 col-sm-6">
           <article class="product">
             <div class="product-header">
-              <h3 class="product-header-title">{{ product.title }}</h3>
-              <p>$ {{ product.price }}</p>
+              <h3 class="product-header-title">{{ product.nombre }}</h3>
+              <p>$ {{ product.precio }}</p>
             </div>
             <div class="product-body">
               <!-- <img [src]="product.images[0]" alt="" /> -->
-              <p>{{ product.description }}</p>
+              <p>{{ product.descripcion }}</p>
             </div>
             <div class="product-footer">
               <button class="product-footer-button" (click)="addToCart(product)">

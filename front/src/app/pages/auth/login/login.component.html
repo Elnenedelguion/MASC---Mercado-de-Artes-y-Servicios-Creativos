@@ -10,7 +10,7 @@
         <div class="col-lg-6 mb-5 mb-lg-0">
           <div class="card">
             <div class="card-body py-5 px-md-5">
-              <form [formGroup]="loginForm">
+              <form [formGroup]="loginForm" (ngSubmit)="login()">
                 <!-- Email input -->
                 <div class="form-outline mb-4">
                   <input
@@ -19,19 +19,6 @@
                     id="form3Example3"
                     class="form-control"
                   />
-                  <!--  
-                  <div
-                    *ngIf="email.invalid && (email.dirty || email.touched)"
-                    class="alert text-danger"
-                  >
-                    <div *ngIf="email.errors?.['required']">
-                      El correo es requerido.
-                    </div>
-                    <div *ngIf="email.errors?.['email']">
-                      El correo debe tener un formato válido.
-                    </div>
-                  </div>-->
-
                   <label class="form-label" for="form3Example3"
                     >Correo Electrónico</label
                   >
@@ -45,21 +32,6 @@
                     id="form3Example4"
                     class="form-control"
                   />
-                  <!--  
-                  <div
-                    *ngIf="
-                      password.invalid && (password.dirty || password.touched)
-                    "
-                    class="alert text-danger"
-                  >
-                    <div *ngIf="password.errors?.['required']">
-                      La contraseña es requerida.
-                    </div>
-                    <div *ngIf="password.errors?.['minlength']">
-                      La contraseña debe tener mínimo 5 caracteres.
-                    </div>
-                  </div>-->
-
                   <label class="form-label" for="form3Example4"
                     >Contraseña</label
                   >
@@ -75,14 +47,13 @@
                     checked
                   />
                   <label class="form-check-label" for="form2Example33">
-                    Recuerdame
+                    Recuérdame
                   </label>
                 </div>
 
                 <!-- Submit button -->
                 <button
                   type="submit"
-                  (click)="login()"
                   class="btn btn-success btn-block mb-4 text-center"
                 >
                   Iniciar Sesión
@@ -91,7 +62,7 @@
                   ¿No estás registrado aún?
                 </div>
                 <button
-                  type=" submit"
+                  type="button"
                   class="btn btn-success btn-block mb-4"
                   routerLink="/registro"
                 >

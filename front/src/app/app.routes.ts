@@ -8,13 +8,14 @@ import { LoginComponent } from './pages/auth/login/login.component';
 import { TermsAndConditionsComponent } from './shared/terms-and-conditions/terms-and-conditions.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { authGuard } from './guards/auth.guard';
 
 
 export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'dashboard', component: DashboardComponent },
+  { path: 'dashboard', component: DashboardComponent, canActivate: [authGuard]},
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },

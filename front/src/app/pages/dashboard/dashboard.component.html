@@ -2,31 +2,31 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head> 
 <div class="productCart-wrapper">
-  @for(product of myCart$ | async; track product.id){
+  @for(product of myCart$ | async; track product.codigodeBarras){
   <article class="productCart">
     <div class="productCart-body">
-      <p>{{ product.title }}</p>
+      <p>{{ product.nombre }}</p>
       <div class="productCart-body-info">
-        <p>Precio: $ {{ product.price }}</p>
+        <p>Precio: $ {{ product.precio }}</p>
         <p>Cantidad: {{ product.cantidad }}</p>
       </div>
     </div>
     <div class="productCart-total">
-      <p>$ {{ totalProduct(product.price, product.cantidad) }}</p>
+      <p>$ {{ totalProduct(product.precio, product.cantidad) }}</p>
     </div>
     <div class="productCart-buttons">
       <div class="productCart-buttons-operators">
         <i
           class="fa-solid fa-minus"
-          (click)="updateUnits('minus', product.id)"
+          (click)="updateUnits('minus', product.codigodeBarras)"
         ></i>
         <span>{{ product.cantidad }}</span>
         <i
           class="fa-solid fa-plus"
-          (click)="updateUnits('add', product.id)"
+          (click)="updateUnits('add', product.codigodeBarras)"
         ></i>
       </div>
-      <i class="fa-solid fa-trash" (click)="deleteProduct(product.id)"></i>
+      <i class="fa-solid fa-trash" (click)="deleteProduct(product.codigodeBarras)"></i>
     </div>
   </article>
 }

@@ -4,8 +4,8 @@ import { Observable } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators';
 import { User } from '../model/user';
 import { BehaviorSubject, throwError } from 'rxjs';
-import { AuthResponse } from '../interfaz/auth-Response'; 
-import { AuthResData} from '../model/auth.model'
+import { AuthResponse } from '../interfaz/auth-response'; 
+import { AuthResData } from '../model/auth.model';
 
 
 @Injectable({

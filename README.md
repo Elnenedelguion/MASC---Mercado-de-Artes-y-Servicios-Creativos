@@ -1,76 +1,45 @@
-:point_right: Profesor Ugarte Marcos Augusto - Por favor, leer. Importante [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/wiki/Profesor-Ugarte-Marcos-Augusto--%E2%80%90%E2%80%90-LEER-POR-FAVOR)
-
-![masc666](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/80b9f29d-b2c2-4cd1-858c-9646294923c0)
+![masc3](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/2f254bdc-5bf8-47f9-9659-4cded97930df)
 
 
-## Proyecto "M.A.S.C" - Mercado de arte y servicios creativos 
+### Instituto Superior Politécnico Córdoba
 
-### Instituto Superior Politécnico Córdoba - Ciclo lectivo: 2024
+## Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales 
 
-### Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales 
+### Proyecto "M.A.S.C"
 
-
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-:point_right: Integrantes Grupo n° 9 - M.A.S.C
-
-A traves de este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/wiki/Integrantes-del-grupo) te contamos quienes forman y formaron parte de m.a.s.c
+### Ciclo lectivo: 2024
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+:point_right: Grupo M.A.S.C
 
-## Guía para un Trabajo en Equipo Efectivo
+:small_orange_diamond: IUORIO, EDUARDO
 
-Queremos asegurarnos de que nuestra colaboración sea eficiente y productiva para todos. Con este objetivo en mente, el equipo, ha establecido algunas pautas que nos ayudarán a mantener un flujo de trabajo  organizado y a evitar errores comunes. 
+:small_orange_diamond: RODRIGUEZ, MARIA ALEJANDRA
 
-:point_right: Reglas principales:
+:small_orange_diamond: GARAY, DIEGO
 
-:small_orange_diamond:Revisar antes de Merge: Antes de realizar un merge, por favor consulta con el equipo. Esto nos ayudará a asegurar que todas las contribuciones sean revisadas y aprobadas correctamente.
+:small_orange_diamond: SUAREZ, FLAVIA
 
-:small_orange_diamond:Creación de Nuevas Ramas: Para crear una nueva rama, por favor avisa al equipo. Esto nos permitirá llevar un control adecuado y evitar duplicidades o conflictos innecesarios.
+:small_orange_diamond: RUIZ, NATALIA
 
-:small_orange_diamond:Borrado de Ramas: No se debe borrar ninguna rama sin antes haberlo consultado con el equipo. Es importante que todas las decisiones sobre el manejo de ramas sean consensuadas para mantener la integridad del proyecto.
+:small_orange_diamond: OLIVERIO, ARCE
+
+:small_orange_diamond: MEDINA, PABLO
+
+:small_orange_diamond: MEIER, IVAN
+
+:small_orange_diamond: CHAUMONT, GISELLE
+
+:small_orange_diamond: RINAUDO, LUCIANO
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 # ¿Qué es M.A.S.C?: 
 
-Te lo contamos en este [link](https://drive.google.com/file/d/1cFhnegvikbpYg3FlBX8Z31JEV304_W52/view?usp=sharing)
-![masc 2](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/assets/166960720/d5bbb11a-d305-4e38-9271-aeca69b372f1)
-
+En M.A.S.C. tenemos la misión de promover la difusión y comercialización de productos y servicios de los artistas y emprendedores culturales en general otorgándoles diferentes herramientas para la comercialización o difusión de sus obras o servicios.
 
 :point_right: Documentación
 
 :small_orange_diamond: **Documento IEEE 830**
-En este [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3COe_k/edit?usp=sharing&ouid=105320720932750339924&rtpof=true&sd=true) pueden consultar el Documento de Especificación de requisitos de software IEE830.
-
-:small_orange_diamond: **DRIVE Grupal**
-En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExrsz_w8vD) se almacena toda la documentación de M.A.S.C 
-
-:small_orange_diamond: **Release MASC 1.0**
-En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/releases/tag/v1.0.0) se adjunta el Release del GRUPO M.A.S.C
-
-
-:small_orange_diamond: **abm_masc.sql**
-En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/blob/main/abm_masc.sql) se adjunta abm_masc.sql del GRUPO M.A.S.C
-
-:point_right: Modelo Entidad - Relacion
-
-:small_orange_diamond: **Modelo DER**
-En este [link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2/edit?viewport_loc=-2896%2C-634%2C2694%2C1221%2C0_0&invitationId=inv_50432734-8597-4bad-b6b7-f21e6eed6254) se almacena el Diagrama entidad relación.
-
-:point_right: Metodologías ágiles 
-
-:small_orange_diamond: **Tablero de Sprint Retrospectives**
-En este [link](https://docs.google.com/document/d/1qgkLQ8mTe_9V-sUzFtl0-JhwNDKV2b7ik7rZk2Tu-o0/edit?usp=sharing) se adjunta el Ideaboardz Retrospective Sprint 01 - Sprint 02
-
-:small_orange_diamond: **Tablero de Sprint Reviews**
-En este [link](https://docs.google.com/document/d/1dxibkVKbtN6GQ_KSCRB87KcrgXtz2ASt9NakI2XqQks/edit) se adjunta la documentacion Sprint review 01 - Sprint review 02
-
-:point_right: Credenciales Superuser
-
-:small_orange_diamond: **Tablero Django admin**
-En este [link](https://docs.google.com/document/d/1ONmvMrM73k-H0HxQR4vlVE1lLOUD23st/edit?usp=sharing&ouid=105320720932750339924&rtpof=true&sd=true) se adjunta word con las credenciales del superusuario.
-* User: root
-* Password: MASC1234
-
-
+En éste [link](https://docs.google.com/document/d/1_6yjxfB9edF_0mYNA99SLLMNcH3COe_k/edit) pueden consultar el Documento de Especificación de requisitos de software de nuestra app.
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
