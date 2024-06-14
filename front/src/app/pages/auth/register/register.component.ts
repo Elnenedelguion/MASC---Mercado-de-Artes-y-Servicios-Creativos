@@ -1,9 +1,11 @@
 import { AuthService } from '../../../services/auth.service';
+import {User} from '../../../model/user'
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AbstractControl, ValidatorFn } from '@angular/forms';
+import { AuthResponse } from '../../../interfaz/auth-response';
 import { AuthResData } from '../../../model/auth.model';
 
 

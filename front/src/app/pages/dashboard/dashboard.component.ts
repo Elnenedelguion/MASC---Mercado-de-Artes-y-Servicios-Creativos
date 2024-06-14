@@ -28,7 +28,7 @@ export class DashboardComponent {
 
   constructor(private storeService: StoreService) { }
 
-  updateUnits(operation: string, id: string) {
+  updateUnits(operation: string, id: number) {
 
     const product = this.storeService.findProductById(id)
     if (product) {
@@ -50,7 +50,7 @@ export class DashboardComponent {
 totalProduct(price: number, units: number) {
   return price * units
 }
-deleteProduct(id: string) {
+deleteProduct(id: number) {
   console.log(`Delete product ID: ${id}`);
   this.storeService.deleteProduct(id);
 

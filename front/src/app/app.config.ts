@@ -1,11 +1,17 @@
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
-import { provideRouter, withComponentInputBinding } from '@angular/router';
+import { provideRouter } from '@angular/router';
+
 
 import { routes } from './app.routes';
-import { HttpClientModule } from '@angular/common/http';
+import{authInterceptor} from './interceptor/auth.interceptor'
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
+import { provideToastr } from 'ngx-toastr';
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes, withComponentInputBinding()),
-    importProvidersFrom(HttpClientModule)
+  providers: [
+  provideToastr(),
+  provideRouter(routes),
+  provideHttpClient(withInterceptors([authInterceptor])),
+    
   ],
 };

@@ -8,7 +8,7 @@ import { Product } from '../model/productos';
 export class StoreService {
 
  
-  baseUrl: string = 'https://api.escuelajs.co/api/v1/';
+  baseUrl: string = 'http://localhost:8000/api/productos/'
 
   //lista carrito
   private myList: Product[] = [];
@@ -20,7 +20,7 @@ export class StoreService {
   constructor(private httpClient: HttpClient) { }
 
   getAllProducts(): Observable<Product[]> {
-    const response = this.httpClient.get<Product[]>(`${this.baseUrl}products`);
+    const response = this.httpClient.get<Product[]>(`${this.baseUrl}`);
     // console.log(response);
     return response
   }
@@ -41,7 +41,7 @@ export class StoreService {
 
     } else {
       const productMod = this.myList.find((element) => {
-        return element.id === product.id
+        return element.codigodeBarras === product.codigodeBarras
       })
       if (productMod) {
         productMod.cantidad = productMod.cantidad + 1;
@@ -56,24 +56,24 @@ export class StoreService {
     }
   }
 
-  findProductById(id: string) {
+  findProductById(id: number) {
     return this.myList.find((element) => {
-      return element.id === id
+      return element.codigodeBarras === id
     })
 
   }
 
-  deleteProduct(id: string) {
+  deleteProduct(id: number) {
 
     this.myList = this.myList.filter((product) => {
-      return product.id != id
+      return product.codigodeBarras != id
     })
     this.myCart.next(this.myList);
 
 
   }
   totalCart() {
-    const total = this.myList.reduce(function (acc, product) { return acc + (product.cantidad * product.price); }, 0)
+    const total = this.myList.reduce(function (acc, product) { return acc + (product.cantidad * product.precio); }, 0)
     return total
   }
 }
