@@ -50,14 +50,10 @@ En este [link](https://drive.google.com/drive/folders/1ba9DFmO3WURKgp5lAbNZ9XExr
 En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/releases/tag/v1.0.0) se adjunta el Release del GRUPO M.A.S.C
 
 
-:small_orange_diamond: **abm_masc.sql**
-En este [link](https://github.com/Elnenedelguion/MOD-PROGRAM-WEB-2024/blob/main/abm_masc.sql) se adjunta abm_masc.sql del GRUPO M.A.S.C
-
 :point_right: Modelo Entidad - Relacion
 
 :small_orange_diamond: **Modelo DER**
-En este [link](https://lucid.app/lucidchart/04d5b275-5332-4419-878b-2172701cb0b2/edit?viewport_loc=-2896%2C-634%2C2694%2C1221%2C0_0&invitationId=inv_50432734-8597-4bad-b6b7-f21e6eed6254) se almacena el Diagrama entidad relación.
-
+En este [link](https://drive.google.com/file/d/18QFLjwbFgqeT3gls-KaypxcZ5ThEPZo6/view?usp=sharing) se almacena el Diagrama entidad relación.
 :point_right: Metodologías ágiles 
 
 :small_orange_diamond: **Tablero de Sprint Retrospectives**
