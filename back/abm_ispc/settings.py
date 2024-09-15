@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -154,10 +155,10 @@ REST_FRAMEWORK = {
 }
 
 
-
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ORIGIN_WHITELIST = ["http://localhost:4200"]
 CORS_ALLOW_CREDENTIALS = True
 
 
 # Add this at the end of the file
-#from rest_framework.authtoken.models import Token
+from rest_framework.authtoken.models import Token
