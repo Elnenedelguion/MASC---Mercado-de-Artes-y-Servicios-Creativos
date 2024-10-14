@@ -1,0 +1,1 @@
+web: gunicorn  MASC---Mercado-de-Artes-y-Servicios-Creativos.wsgi --log-file -
